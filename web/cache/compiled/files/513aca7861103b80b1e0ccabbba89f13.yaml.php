@@ -1,0 +1,57 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
+    'filename' => '/var/www/html/user/themes/learn4/languages.yaml',
+    'modified' => 1589553213,
+    'data' => [
+        'en' => [
+            'THEME_LEARN4_GITHUB_EDIT' => 'Edit',
+            'THEME_LEARN4_GITHUB_NOTE' => 'Encontraste errores? Puedes mejorar la documentacion? Contacta: alberto@alberto.ws',
+            'THEME_LEARN4_CLEAR_HISTORY' => 'Limpiar historial',
+            'THEME_LEARN4_BUILT_WITH_GRAV' => 'Built with <a href="http://getgrav.org">Grav</a> - The Modern Flat File CMS',
+            'THEME_LEARN4_SEARCH_DOCUMENTATION' => ':)...'
+        ],
+        'cn' => [
+            'THEME_LEARN4_GITHUB_NOTE' => '发现错误？请帮忙改进，谢谢！',
+            'THEME_LEARN4_CLEAR_HISTORY' => '清除历史',
+            'THEME_LEARN4_BUILT_WITH_GRAV' => 'Built with <a href="http://getgrav.org">Grav</a> - The Modern Flat File CMS',
+            'THEME_LEARN4_SEARCH_DOCUMENTATION' => '搜索文档'
+        ],
+        'cs' => [
+            'THEME_LEARN4_GITHUB_NOTE' => 'Našli jste chybu? Myslíte, že můžete vylepšit tuto dokumentaci?',
+            'THEME_LEARN4_CLEAR_HISTORY' => 'Smazat historii',
+            'THEME_LEARN4_BUILT_WITH_GRAV' => 'Postaveno na <a href="http://getgrav.org">Grav</a> - Moderní správce obsahu pomocí souborů prostých textů',
+            'THEME_LEARN4_SEARCH_DOCUMENTATION' => 'Vyhledat v dokumentaci'
+        ],
+        'de' => [
+            'THEME_LEARN4_GITHUB_NOTE' => 'Fehler gefunden? Möchten Sie diese Seite verbessern?',
+            'THEME_LEARN4_CLEAR_HISTORY' => 'Verlauf löschen',
+            'THEME_LEARN4_BUILT_WITH_GRAV' => 'Seite erstellt mit <a href="http://getgrav.org">Grav</a> - The Modern Flat File CMS',
+            'THEME_LEARN4_SEARCH_DOCUMENTATION' => 'Dokumentation durchsuchen'
+        ],
+        'es' => [
+            'THEME_LEARN4_GITHUB_NOTE' => '¿Encontraste errores? ¿Crees que puedes mejorar esta documentación?',
+            'THEME_LEARN4_CLEAR_HISTORY' => 'Limpiar historial',
+            'THEME_LEARN4_BUILT_WITH_GRAV' => 'Hecho con <a href="http://getgrav.org">Grav</a> - El CMS moderno de archivos planos',
+            'THEME_LEARN4_SEARCH_DOCUMENTATION' => 'Buscar en la documentación'
+        ],
+        'fr' => [
+            'THEME_LEARN4_GITHUB_NOTE' => 'Vous avez découvert des erreurs ? Vous pensez pouvoir améliorer cette documentation ?',
+            'THEME_LEARN4_CLEAR_HISTORY' => 'Effacer l\'historique',
+            'THEME_LEARN4_BUILT_WITH_GRAV' => 'Créé avec <a href="http://getgrav.org">Grav</a> - Le CMS moderne sans base de données',
+            'THEME_LEARN4_SEARCH_DOCUMENTATION' => 'Rechercher dans la documentation'
+        ],
+        'it' => [
+            'THEME_LEARN4_GITHUB_NOTE' => 'Hai trovato degli errori? Pensi di poter migliorare questa documentazione?',
+            'THEME_LEARN4_CLEAR_HISTORY' => 'Cancella Cronologia',
+            'THEME_LEARN4_BUILT_WITH_GRAV' => 'Built with <a href="http://getgrav.org">Grav</a> - The Modern Flat File CMS',
+            'THEME_LEARN4_SEARCH_DOCUMENTATION' => 'Cerca nella Documentatione'
+        ],
+        'ru' => [
+            'THEME_LEARN4_GITHUB_NOTE' => 'Нашли ошибки? Думаете, что можете улучшить документацию?',
+            'THEME_LEARN4_CLEAR_HISTORY' => 'Очистить историю',
+            'THEME_LEARN4_BUILT_WITH_GRAV' => 'Сделано на <a href="http://getgrav.org">Grav</a> — современной файловой CMS',
+            'THEME_LEARN4_SEARCH_DOCUMENTATION' => 'Поиск по документации'
+        ]
+    ]
+];

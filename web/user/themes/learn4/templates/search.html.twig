@@ -1,0 +1,10 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    {{ page.content|raw }}
+
+    {% include 'partials/tntsearch.html.twig' with { in_page: true, placeholder: "Busca en la wiki alberto.ws ... :)" }%}
+{% endblock %}
+
+
+

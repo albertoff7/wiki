@@ -1,0 +1,15 @@
+.file-browser {
+  background: #ccc;
+  border-radius: 6px;
+  border: 1px solid black;
+  padding: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+
+  @import "_nav.scss";
+  @import "_address.scss";
+  @import "_browser.scss";
+}
+

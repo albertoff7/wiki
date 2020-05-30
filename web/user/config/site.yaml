@@ -1,0 +1,19 @@
+title: 'Wiki alberto WS'
+default_lang: es
+author:
+  name: Alberto
+  email: albertof417@gmail.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'wiki personal de alberto ws webservices'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+redirects: null
+routes: null
+blog:
+  route: /blog

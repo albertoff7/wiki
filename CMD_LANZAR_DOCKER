@@ -1,0 +1,1 @@
+docker run -it -d -v /var/opt/badenpow/learn/web:/var/www/html -v /var/opt/badenpow/learn/apache:/etc/apache2 --name=php_grav -p 80:80 -p 443:443 php_grav:latest

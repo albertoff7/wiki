@@ -1,0 +1,129 @@
+{% import "macros/file_browser.twig" as macros %}
+
+{% set plugin_config = attribute(config.plugins, 'file-browser') %}
+
+{% set base = plugin_config.base_to_extend|default('partials/base.html.twig') %}
+{% extends base %}
+
+
+{% do assets.addJs("plugins://file-browser/js/file-browser.js") %}
+
+{# Load plugin and page configurations #}
+{% set plugin_config = attribute(config.plugins, 'file-browser') %}
+{% set page_config = page.header.file_browser|default({}) %}
+
+{% set default_config = {
+  "default_view": "tile",
+  "load_font_awesome": true,
+  "built_in_css": true,
+  "use_alt_arrows": false,
+  "show_thumbnails": true,
+  "icon_weight": "fas",
+  "base_url": base_url_simple
+} %}
+
+{% set options = default_config|merge(plugin_config)|merge(page_config) %}
+
+{# Get the icon weight (with FA4 compatibility) #}
+{% if options["fa4_compatability"] %}
+  {% set iconWeight = "fa" %}
+{% else %}
+  {% set iconWeight = options["icon_weight"]|default("fas") %}
+{% endif %}
+
+{# Load assets #}
+{% if options["built_in_css"] %}
+  {% do assets.addCss("plugins://file-browser/css-compiled/file-browser.css") %}
+{% endif %}
+
+{% if options["load_font_awesome"] %}
+  {# Below kit provides the Font Awesome Free as webfonts #}
+  {% do assets.addCss("https://use.fontawesome.com/releases/v5.8.1/css/all.css") %}
+{% endif %}
+
+{# Set icon styles #}
+{% if options["use_alt_arrows"] %}
+  {% set back_arrow = iconWeight~" fa-arrow-alt-left" %}
+  {% set forward_arrow = iconWeight~" fa-arrow-alt-right" %}
+  {% set up_arrow = iconWeight~" fa-arrow-alt-up" %}
+
+{% else %}
+  {% set back_arrow = iconWeight~" fa-arrow-left" %}
+  {% set forward_arrow = iconWeight~" fa-arrow-right" %}
+  {% set up_arrow = iconWeight~" fa-arrow-up" %}
+
+{% endif %}
+
+{% set view_tile = iconWeight~" fa-th-large" %}
+{% set view_list = iconWeight~" fa-list" %}
+
+{% set sort_asc = iconWeight~" "~(options["sort_icon_asc"]|default("fa-sort")) %}
+{% set sort_desc = iconWeight~" "~(options["sort_icon_desc"]|default("fa-sort")) %}
+
+
+{# Set up additional classes for view types #}
+{% set browser_variant = "" %}
+
+{% if options["default_view"] is same as("list") %}
+  {% set browser_variant = " list-view" %}
+  {% set view_list = view_list~" is-active" %}
+{% else %}
+  {% set view_tile = view_tile~" is-active" %}
+{% endif %}
+
+{% if options["colourise_icons"] %}
+  {% set browser_variant = browser_variant~" colourise" %}
+{% endif %}
+
+
+
+{% block content %}
+
+{{ content|raw }}
+
+<div class="file-browser{{ browser_variant }}">
+
+  <div class="controls">
+    <div class="navigation">
+      <div class="button" id="file-nav-back" title="Navigate back">
+        <i class="button-icon {{ back_arrow }}"></i>
+      </div>
+      <div class="button" id="file-nav-forward" title="Navigate forward">
+        <i class="button-icon {{ forward_arrow }}"></i>
+      </div>
+      <div class="button" id="file-nav-up" title="Navigate up">
+        <i class="button-icon {{ up_arrow }}"></i>
+      </div>
+    </div>
+    <div class="spacer"></div>
+    {% if options["sort_show"] %}
+      <div class="sorting">
+        <div class="button" id="sort-alpha">
+          <i class="button-icon sort-alpha {{ options["sort_reverse"] ? "" : "is-active" }} {{ sort_asc }}" title="Sort ascending"></i>
+          <i class="button-icon sort-alpha {{ options["sort_reverse"] ? "is-active" : "" }} {{ sort_desc }}" title="Sort descending"></i>
+        </div>
+      </div>
+    {% endif %}
+    <div class="view">
+      <div class="button" id="tile-view">
+        <i class="button-icon {{ view_tile }}" title="Tile view"></i>
+      </div>
+      <div class="button" id="list-view">
+        <i class="button-icon {{ view_list }}" title="List view"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="address-bar">
+    <span id="file-address-bar">/</span>
+  </div>
+
+  {% if fileBrowserContent is iterable %}
+    {{ macros.folderContents(fileBrowserContent, options) }}
+  {% else %}
+    Error: {{ fileBrowserContent }}
+  {% endif %}
+
+</div>
+
+{% endblock %}

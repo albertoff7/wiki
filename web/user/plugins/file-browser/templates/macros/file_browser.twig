@@ -1,0 +1,139 @@
+{% macro folderContents(content, options = {}, folderId = "rootFolder", parentId = "", folderDepth = 0) %}
+  {% import _self as self %}
+
+  {# Get the icon weight (with FA4 compatibility) #}
+  {% if options["fa4_compatability"] %}
+    {% set iconWeight = "fa" %}
+  {% else %}
+    {% set iconWeight = options["icon_weight"]|default("fas") %}
+  {% endif %}
+
+  {% set showThumbnails = options["show_thumbnails"]|default(false) %}
+
+  {% if parentId %}
+    {% set browserClass = "browser" %}
+  {% else %}
+    {% set browserClass = "browser is-active" %}
+  {% endif %}
+
+  {% if parentId %}
+    {% set browserId = parentId ~ "---" ~ folderId %}
+  {% else %}
+    {% set browserId = folderId %}
+  {% endif %}
+
+  {% set subfolders = [] %}
+
+  {# Handle cases where its folder containing only folders  #}
+  {% if content|last|last is not iterable %}
+    {% set dirMedia = media_directory(pathinfo(content|last|last)["dirname"]) %}
+  {% endif %}
+
+  <div class="{{ browserClass }}" id="{{ browserId }}">
+
+  {# Reverse the content order if the option is set #}
+  {% if options["sort_reverse"] %}
+    {% set folders = {} %}
+    {% set files = {} %}
+
+    {% for item in content %}
+      {% if item[1] is iterable %}
+        {% set folders = folders|merge([item]) %}
+      {% else %}
+        {% set files = files|merge([item]) %}
+      {% endif %}
+    {% endfor %}
+
+    {% set content = (folders|reverse)|merge(files|reverse) %}
+  {% endif %}
+
+  {# Process the content #}
+  {% for item in content %}
+    {% set name = item[0] %}
+    {% set url = item[1] %}
+
+    {% if url is iterable %}
+      {% set folderId = self.getFolderId(name, folderDepth)|trim %}
+      {% set subfolders = subfolders|merge([[folderId, url]]) %}
+
+      {{ self.folderItem(name, folderId) }}
+
+    {% else %}
+      {{ self.fileItem(name, url, dirMedia[name], options) }}
+
+    {% endif %}
+
+  {% endfor %}
+
+  </div>
+
+  {% for item in subfolders %}
+    {% set folderId = item[0] %}
+    {% set content = item[1] %}
+
+    {{ self.folderContents(content, options, folderId, browserId, folderDepth + 1) }}
+  {% endfor %}
+
+{% endmacro %}
+
+{% macro getFolderId(name, depth) %}
+  {% set unsafeChars = {" ":"___"} %}
+  {% set idSafeName = name|replace(unsafeChars) %}
+
+  {{ idSafeName }}
+{% endmacro %}
+
+
+{% macro folderItem(name, folderId) %}
+  <div class="item folder-item">
+    <div class="folder" data-folder-id="{{ folderId }}">
+      <div class="thumbnail">
+        <i class="file-icon fas fa-folder"></i>
+      </div>
+      <span class="filename">{{ name }}</span>
+    </div>
+  </div>
+{% endmacro %}
+
+
+{% macro fileItem(name, url, fileMedia, options = {}) %}
+  {% set iconWeight = options["icon_weight"]|default("fas") %}
+  {% set showThumbnails = options["show_thumbnails"]|default(false) %}
+
+  {% set pathInfo = pathinfo(url) %}
+  {% set extension = pathInfo["extension"] %}
+  {% set dirName = pathInfo["dirname"] %}
+  {% set baseName = pathInfo["basename"] %}
+
+  {% set fileIconDefault = options["file_icon_default"] %}
+  {% set extensionSpecific = options["file_icons_specific"] %}
+  {% set fileIconTypes = options["file_icon_types"] %}
+
+  {# Set fileIcon to the default #}
+  {% set fileIcon = fileIconDefault %}
+
+  {# Update it if necessary #}
+  {% for icon, extensions in fileIconTypes %}
+    {# 'map' doesn't work in Twig < 1.41 (Grav 1.6.9) - not sure whether there's a performance difference #}
+    {#% if extension in fileTypes|split(",")|map(x => x|trim) %#}
+    {% if extension in extensions|replace({" ": ""})|split(",") %}
+      {% set fileIcon = icon %}
+    {% endif %}
+  {% endfor %}
+
+  <div class="item file-item">
+    <a class="file" href="{{ options["base_url"] }}/{{ url }}" target="_blank">
+      {# Need to check the file "type" because bmp and tiff files aren't supported #}
+      <div class="thumbnail">
+        {% if showThumbnails and fileMedia["mime"]|starts_with("image") and fileMedia["type"] is not same as("file") %}
+          {{ (fileMedia.thumbnailExists() ? fileMedia.getThumbnail().html() : fileMedia.cropResize(100,100).html())|raw }}
+
+        {% else %}
+          <i class="file-icon {{ iconWeight }} {{ fileIcon }}"></i>
+        {% endif %}
+      </div>
+
+      <span class="filename">{{ name }}</span>
+    </a>
+  </div>
+{% endmacro %}

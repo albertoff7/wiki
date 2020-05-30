@@ -1,0 +1,250 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
+    'filename' => '/var/www/html/user/plugins/file-browser/blueprints.yaml',
+    'modified' => 1589554167,
+    'data' => [
+        'name' => 'File Browser',
+        'version' => '0.2.7',
+        'description' => 'File browser plugin providing directory listing',
+        'icon' => 'folder',
+        'author' => [
+            'name' => 'Nathan Parsons',
+            'email' => 'github@tantalum.blue',
+            'url' => 'https://tantalum.blue'
+        ],
+        'homepage' => 'https://github.com/N-Parsons/grav-plugin-file-browser',
+        'keywords' => 'grav, plugin, files, directory, file browser, directory listing',
+        'bugs' => 'https://github.com/N-Parsons/grav-plugin-file-browser/issues',
+        'license' => 'MIT',
+        'form' => [
+            'validation' => 'strict',
+            'fields' => [
+                'enabled' => [
+                    'type' => 'toggle',
+                    'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                    'highlight' => 1,
+                    'default' => 0,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ]
+                ],
+                'built_in_css' => [
+                    'type' => 'toggle',
+                    'label' => 'PLUGIN_FILE_BROWSER.BUILTIN_CSS',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ]
+                ],
+                'load_font_awesome' => [
+                    'type' => 'toggle',
+                    'help' => 'PLUGIN_FILE_BROWSER.LOAD_FONT_AWESOME_HELP',
+                    'label' => 'PLUGIN_FILE_BROWSER.LOAD_FONT_AWESOME',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ]
+                ],
+                'fa4_compatability' => [
+                    'type' => 'toggle',
+                    'help' => 'PLUGIN_FILE_BROWSER.FA4_COMPATIBILITY_HELP',
+                    'label' => 'PLUGIN_FILE_BROWSER.FA4_COMPATIBILITY',
+                    'highlight' => 1,
+                    'default' => 0,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ]
+                ],
+                'source' => [
+                    'type' => 'text',
+                    'label' => 'PLUGIN_FILE_BROWSER.DEFAULT_SOURCE',
+                    'default' => 'user://files'
+                ],
+                'show_hidden_files' => [
+                    'type' => 'toggle',
+                    'label' => 'PLUGIN_FILE_BROWSER.SHOW_HIDDEN_FILES',
+                    'highlight' => 1,
+                    'default' => 0,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ]
+                ],
+                'default_view' => [
+                    'type' => 'select',
+                    'label' => 'PLUGIN_FILE_BROWSER.DEFAULT_VIEW',
+                    'default' => 'tile',
+                    'options' => [
+                        'tile' => 'PLUGIN_FILE_BROWSER.TILE_VIEW',
+                        'list' => 'PLUGIN_FILE_BROWSER.LIST_VIEW'
+                    ]
+                ],
+                'base_to_extend' => [
+                    'type' => 'text',
+                    'label' => 'PLUGIN_FILE_BROWSER.BASE_TO_EXTEND',
+                    'placeholder' => 'partials/base.html.twig'
+                ],
+                'fontawesome_pro' => [
+                    'type' => 'section',
+                    'title' => 'PLUGIN_FILE_BROWSER.FONT_AWESOME_PRO',
+                    'fields' => [
+                        'use_alt_arrows' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_FILE_BROWSER.USE_ALT_ARROWS',
+                            'highlight' => 1,
+                            'default' => 0,
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.ENABLED',
+                                0 => 'PLUGIN_ADMIN.DISABLED'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
+                            ]
+                        ],
+                        'icon_weight' => [
+                            'type' => 'select',
+                            'label' => 'PLUGIN_FILE_BROWSER.ICON_WEIGHT',
+                            'default' => 'fas',
+                            'options' => [
+                                'fas' => 'PLUGIN_FILE_BROWSER.ICON_WEIGHT_FAS',
+                                'far' => 'PLUGIN_FILE_BROWSER.ICON_WEIGHT_FAR',
+                                'fal' => 'PLUGIN_FILE_BROWSER.ICON_WEIGHT_FAL',
+                                'fad' => 'PLUGIN_FILE_BROWSER.ICON_WEIGHT_FAD'
+                            ]
+                        ]
+                    ]
+                ],
+                'sort_section' => [
+                    'type' => 'section',
+                    'title' => 'PLUGIN_FILE_BROWSER.SORT_SECTION',
+                    'text' => 'PLUGIN_FILE_BROWSER.SORT_NOTE',
+                    'fields' => [
+                        'sort_show' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_FILE_BROWSER.SORT_SHOW',
+                            'highlight' => 1,
+                            'default' => 1,
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.ENABLED',
+                                0 => 'PLUGIN_ADMIN.DISABLED'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
+                            ]
+                        ],
+                        'sort_reverse' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_FILE_BROWSER.SORT_REVERSE',
+                            'highlight' => 1,
+                            'default' => 0,
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.ENABLED',
+                                0 => 'PLUGIN_ADMIN.DISABLED'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
+                            ]
+                        ],
+                        'sort_icon_asc' => [
+                            'type' => 'text',
+                            'label' => 'PLUGIN_FILE_BROWSER.SORT_ASCENDING',
+                            'placeholder' => 'eg. fa-sort-alpha-down'
+                        ],
+                        'sort_icon_desc' => [
+                            'type' => 'text',
+                            'label' => 'PLUGIN_FILE_BROWSER.SORT_DESCENDING',
+                            'placeholder' => 'eg. fa-sort-alpha-up'
+                        ]
+                    ]
+                ],
+                'file_icons' => [
+                    'type' => 'section',
+                    'title' => 'PLUGIN_FILE_BROWSER.FILE_ICONS',
+                    'fields' => [
+                        'file_icon_default' => [
+                            'type' => 'text',
+                            'label' => 'PLUGIN_FILE_BROWSER.FILE_ICON_DEFAULT',
+                            'default' => 'fa-file-alt'
+                        ],
+                        'colourise_icons' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_FILE_BROWSER.COLOURISE_ICONS',
+                            'help' => 'PLUGIN_FILE_BROWSER.COLOURISE_ICONS_HELP',
+                            'highlight' => 1,
+                            'default' => 1,
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.ENABLED',
+                                0 => 'PLUGIN_ADMIN.DISABLED'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
+                            ]
+                        ],
+                        'show_thumbnails' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_FILE_BROWSER.SHOW_THUMBNAILS',
+                            'highlight' => 1,
+                            'default' => 1,
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.ENABLED',
+                                0 => 'PLUGIN_ADMIN.DISABLED'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
+                            ]
+                        ],
+                        'file_icons_specific' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_FILE_BROWSER.FILE_ICONS_SPECIFIC',
+                            'highlight' => 1,
+                            'default' => 1,
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.ENABLED',
+                                0 => 'PLUGIN_ADMIN.DISABLED'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
+                            ]
+                        ],
+                        'file_icon_types' => [
+                            'type' => 'array',
+                            'label' => 'PLUGIN_FILE_BROWSER.FILE_ICON_TYPES',
+                            'default' => [
+                                'fa-file-word' => 'doc, docx, odt, rtf',
+                                'fa-file-csv' => 'csv',
+                                'fa-file-excel' => 'xls, xlsx, ods',
+                                'fa-file-powerpoint' => 'ppt, pps, pptx, ppsx, odp',
+                                'fa-file-archive' => 'zip',
+                                'fa-file-video' => 'mp4, mov',
+                                'fa-file-audio' => 'mp3, ogg, wav',
+                                'fa-file-pdf' => 'pdf'
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+];
