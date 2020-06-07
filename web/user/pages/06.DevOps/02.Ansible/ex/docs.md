@@ -1,5 +1,5 @@
 ---
-title: 'Ansible Docs EX'
+title: 'Ansible Docs'
 body_classes: header-animated
 visible: true
 hero_classes: ''
@@ -1087,14 +1087,79 @@ handlers:
 - `copy` : Copiar archivo de la máquina local o remota a una ubicación en un host administrado. Permitido SELinux.
 - `fetch` : Recupera archivos de máquinas remotas al nodo de control.
 - `file` : Establecer atributos a un archivo. Propiedad, contextos SELinux, permisos, enlaces, directorios, etc.
-- `` :
-- `` :
-- `` :
-- `` :
-- `` :
-- `` :
+- `lineinfile` : Asegura que una línea exista en un archivo o reemplace una existente con una expersión regular.
+- `stat` : Recupera información de un archivo.
+- `synchronize` : Módulo entorno a rsync.
 
-#### 6.2. 
+**Existe un archivo en host administrados**
+
+```yaml
+- name: Touch a file and set permissions
+  file:
+    path: /path/to/file
+    owner: user1
+    group: group1
+    mode: 0640
+    state: touch
+```
+
+**Modificación de atributos e un archivo**
+
+```yaml
+- name: SELinux type is set to samba_share_t
+  file:
+    path: /path/to/samba_file
+    setype: samba_share_t
+```
+
+**Cambios en el contexto SELinux persistentes**
+
+```yaml
+- name: SELinux type is persistently set to samba_share_t
+ sefcontext:
+ target: /path/to/samba_file
+ setype: samba_share_t
+ state: present
+```
+
+**Línea en un archivo**
+
+```yaml
+- name: Add a line of text to a file
+  lineinfile:
+    path: /path/to/file
+    line: 'Add this line to the file'
+    state: present
+```
+
+**Bloque en un archivo**
+
+```yaml
+- name: Add additional lines to a file
+  blockinfile:
+    path: /path/to/file
+    block: |
+       First line in the additional block of text
+       Second line in the additional block of text
+    state: present
+```
+
+**Sincronizar archivos**
+
+```yaml
+- name: synchronize local file to remote files
+  synchronize:
+    src: file
+    dest: /path/to/file
+```
+
+#### 6.2. Plantillas Jinja2
+
+```yaml
+```
+
+```yaml
+```
 
 ### 7. Administración de proyectos grandes.
 - Patrones de hosts.
