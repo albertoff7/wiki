@@ -10,4 +10,4 @@ taxonomy:
 # DevOps
 
 Utilidades DevOps
-##### Helm, Docker, Kubernetes, Ansible, Openshift, Rancher
+##### Docker, Kubernetes, Ansible, Openshift, Rancher, Helm

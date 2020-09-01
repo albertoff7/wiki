@@ -39,6 +39,30 @@ $ ansible all -m ping
 - El método de instalación depende de su S.O. en linux normalmente agregar el repositorio e instalar con la herramienta de paquetes de la distribución.
 - Docu oficial: [https://docs.ansible.com](https://docs.ansible.com)
 
+##### Instalación en RHEL 8
+```bash
+## Registramos el sistema
+subscription-manager register
+
+## Vemos las subscripciones que tenemos disponibles
+subscription-manager list --available
+
+## Atachamos una (también con attach --auto)
+subscription-manager attach --pool=<id_pool>
+
+## Listamos repositorios
+subscription-manager repos --list |grep -i ansible
+
+## Instalamos el de ansible
+subscription-manager repos --enable ansible-2-for-rhel-8-x86_64-rpms
+
+## Listamos los repositorios instalados
+subscription-manager repos --list-enabled
+
+## Instalamos ansible
+yum install ansible
+```
+
 ```bash
 $ ansible --version
 ansible 2.9.7
@@ -289,6 +313,7 @@ someuser ALL=(ALL) NOPASSWD:ALL
 - Las guías permiten la ejecución de tareas complejas en un conjunto de hosts.
 - Son un conjunto ordenado de tareas en formato `YAML`.
 - Para aumentar el detalle de salida se pueden agregar `-v`, `-vv`, `-vvv`, `-vvvv`.
+- Para chequear una playbook `ansible-playbook play.yml --syntax-check`.
 - Para ejecutar un simulacro (sin ejecutar la guía), utilizamos la opción `-C` en runtime.
 - Para añadir varias reproducciones a una misma guía, copiamos la misma estructura a nivel `- name`.
 - Al nivel de host y tasks, se pueden utilizar los atributos `remote_user`, `become`, `become_method`, `become_user`, que prevalecen sobre los definidos en `ansible.cfg`.
@@ -1155,31 +1180,361 @@ handlers:
 
 #### 6.2. Plantillas Jinja2
 
-```yaml
-```
+- Las plantillas `jinja2` son la forma óptima de administrar archivos de texto con ansible, permitiendo crear templates personalizadas de código que se sustituye en los hosts destino.
+
+##### Creando archivo Jinja2
 
 ```yaml
+Port {{ ssh_port }}
+ListenAddress {{ ansible_facts['default_ipv4']['address'] }}
+HostKey /etc/ssh/ssh_host_rsa_key
+HostKey /etc/ssh/ssh_host_ecdsa_key
+HostKey /etc/ssh/ssh_host_ed25519_key
+SyslogFacility AUTHPRIV
+PermitRootLogin {{ root_allowed }}
+AllowGroups {{ groups_allowed }}
+```
+
+##### Para implementar una plantilla
+Utilizamos el módulo template.
+
+```yaml
+---
+- name: Sample JINJA
+  hosts: redhat
+  vars:
+    - ssh_port: 22
+    - root_allowed: "yes"
+    - groups_allowed: "yea"
+
+  tasks:
+   - name: Crear archivo desde JINJA2
+     template:
+       src: plantilla/sample1.j2
+       dest: /tmp/destino.conf
+```
+
+##### Bucles y condicionales
+
+```yaml
+## Recorrer todos los valores de una variable.
+{% for user in users %}
+ {{ user }}
+{% endfor %}
+
+## Recorre la variable y muestra el usuario si no es root.
+## loop.index es un contador
+{# for statement #}
+{% for myuser in users if not myuser == "root" %}
+User number {{ loop.index }} - {{ myuser }}
+{% endfor %}
+
+## Para recorrer un grupo de hosts
+{% for myhost in groups['myhosts'] %}
+{{ myhost }}
+{% endfor %}
+
+## Si la variable finished es true
+{% if finished %}
+{{ result }}
+{% endif %}
 ```
 
 ### 7. Administración de proyectos grandes.
-- Patrones de hosts.
-- Inventarios dinámicos.
-- Paralelismos.
-- Inclusión e importación de archivos.
+#### 7.1 Patrones de hosts.
+```yaml
+'prod,172*,*lab*'
+'172.25.*'
+'*'
+'*.example.com, !*.lab.example.com' ## Operador NOT
+'lab,&datacenter1' ## Operador AND
+```
+#### 7.2 Inventarios dinámicos.
+- Se generan ejecutando un script (que devuelve un JSON) para entornos en los que se agregan o se borran host con mucha facilidad, por lo que el inventario de máquinas es dinámico.
+- Si un inventario es un directorio en vez de un archivo, todos los inventarios estáticos y dinámicos contenidos en él se combinan para utilizarse como inventario.
+- Se pueden personalizar los sufijos de archivos que se encuentren en el directorio inventario para que no se lean como ficheros de inventario.
+
+```yaml
+## Para crear un archivo ejecutable de inventario dinámico a partir de un archivo INI
+ansible-inventory --list
+```
+
+#### 7.3 Paralelismos.
+- Cantidad de conexiones simultáneas que ansible abre a los hosts administrados.
+- Si hay demasiados hosts que administrar puede suponer una carga elevada para el nodo de control.
+- Hay que ajustar los forks dependiendo de donde se ejecuten los comandos de tu playbook (nodo control u hosts administrados). Por defecto son 5. `forks = 5` en ansible.cfg.  
+- Las tareas se procesan en orden, primero se completa la tarea 1 en todos los hosts y luego se pasa a la tarea 2, etc.
+- Se puede modificar la configuración en runtime con `-f` o `--forks`.
+- Si no queremos actualizar una tarea en todos los hosts al mismo tiempo, si no ejecutar toda la lista de tareas en grupos de hosts, podemos usar `serial`. Ésto genera una estrategia de rolling update por ejemplo para actualizar un grupo de servidores web.
+- Si en una ejecución serial, la guía falla para el primer paquete de hosts, no seguirá, con lo que tendrá una degradación del servicio (al tener menos servidores) pero no una interrupción.
+
+```bash
+## Consultar cuantas conexiones (forks) simultáneos hay configurados
+ansible-config dump |grep -i forks
+
+## Aplicar serial
+---
+- name: Rolling update
+  hosts: webservers
+  serial: 2
+  tasks:
+```
+
+#### 7.4 Inclusión e importación de archivos.
+
+- Son características que aportan gran ventaja en la gestión de grandes playbooks.
+- Import estático. Se procesan previamente en el momento en que se analizan playbooks.
+- Include dinámico. Bucles y cláusulas when. Se procesan tal y como se encontraon en los playbook.
+
+##### Importar una guía.
+
+```yaml
+- name: Prepare the web server
+ import_playbook: apache.yml
+ 
+- name: Prepare the database server
+ import_playbook: db2.yml
+```
+
+##### Importar una tarea.
+
+- No se pueden usar bucles.
+- Las declaraciones del tipo `when` se aplican a cada una de las tareas que se importan.
+- Si se utiliza una variable para referenciar el nombre del archivo a importar, no puede ser una variable de inventario de host o grupo.
+
+```yaml
+## Teniendo una lista de tareas plana del tipo:
+- name: Installs the httpd package
+  yum:
+    name: httpd
+    state: latest
+- name: Starts the httpd service
+  service:
+    name: httpd
+    state: started
+    
+## Podemos importar las tareas de la siguiente forma:
+---
+- name: Install web server
+  hosts: webservers
+  tasks:
+  - import_tasks: webserver_tasks.yml
+```
+
+##### Inclusión de archivos de tareas.
+
+- No procesa el contenido de la guía hasta que se ejecuta la reproducción y se alcanza esa parte.
+- Las declaraciones condicionales como when, determinan si las tareas están incluidas en la reproducción.
+
+```yaml
+---
+- name: Install web server
+ hosts: webservers
+ tasks:
+ - include_tasks: webserver_tasks.yml
+```
+
+##### Definición de variables en inclusión/importación de guías/tareas.
+
+- Haga las tareas lo más genéricas posibles.
+
+```yaml
+## Generica para instalar paquetes y reiniciar servicios
+---
+ - name: Install the {{ package }} package
+   yum:
+     name: "{{ package }}"
+     state: latest
+ - name: Start the {{ service }} service
+   service:
+     name: "{{ service }}"
+     enabled: true
+     state: started
+
+## En la importación
+ tasks:
+   - name: Import task file and set variables
+     import_tasks: task.yml
+     vars:
+       package: httpd
+       service: service
+```
 
 ### 8. Roles.
-- Estructura del rol.
-- Roles de sistema.
-- Creación de roles.
-- Ansible Galaxy.
+#### 8.1 Estructura del rol.
+- Los roles se organizan en carpetas y subdirectorios para las diferentes partes.
+- En una guía escrita con roles, los roles se ejecutan antes que cualquier tarea de la reproducción.
+- Las tareas bajo la sección `pre_tasks` se ejecutan antes que los roles al igual que los manejadores si son llamados desde tareas de está sección.
+- También existe la sección `post_tasks` que ejecuta tareas al finalizar la guía.
+
+```bash
+user.example/
+├── defaults
+│ └── main.yml ## Valores predeterminados de variables del rol que se modificarán posteriormente.
+├── files ## Archivos estáticos a los que hacen referencia las tareas del rol.
+├── handlers
+│ └── main.yml ## Contiene los manejadores a los que llaman las guías.
+├── meta
+│ └── main.yml ## Información sobre el rol, autor, licencia, dependencias, etc.
+├── README.md
+├── tasks
+│ └── main.yml ## Tareas del rol
+├── templates ## Plantillas Jinja2 a las que hacen referencia las tareas.
+├── tests ## Contiene inventario y guía test.yml para probar un rol
+│ ├── inventory
+│ └── test.yml
+└── vars
+ └── main.yml ## Define los valores de las variables de un rol. No están diseñadas para cambiarse en la guía.
+```
+
+- Para asignar variables a un rol:
+
+```yaml
+---
+- hosts: alberto.ws.com
+  roles:
+     - role: role1
+     - role: role2
+       var1: val1
+       var2: val2
+       
+---
+- hosts: alberto.ws.com
+  roles:
+    - role: role1
+    - { role: role2, var1: val1, var2: val2 }
+```
+
+- Alternativamente, para agregar un rol a una reproducción se puede usar `include_role` e `import_role`.
+
+```yaml
+- name: Execute a role as a task
+  hosts: alberto.ws.com
+  tasks:
+   - name: A normal task
+     debug:
+        msg: 'primera tarea'
+  - name: A task to include role2 aquí
+    include_role: role2
+```
+
+#### 8.2 Roles de sistema.
+- Roles que se incluyen desde RHEL 7.4 para facilitar tareas de administración en sistemas RHEL.
+- Consultar la documentación de los roles para identificar las variables que deben definirse.
+
+```bash
+## Para listar los roles en el nodo de control
+ansible-galaxy list
+```
+
+#### 8.3 Creación de roles.
+- Ansible busca roles en los path definidos en la variable `roles_path` de `ansible.cfg` o en la variable `$ANSIBLE_ROLES_PATH`.
+- Hay que tener en cuenta la precedencia de variables ya que en función de ésto, las variables tendrán unos u otros valores.
+
+```bash
+## Para crear la estructura de un rol en el directorio actual
+ansible-galaxy init
+
+## Cambiar variables forma1
+---
+- name: use motd role playbook
+  hosts: remote.example.com
+  remote_user: devops
+  become: true
+  vars:
+    system_owner: someone@host.example.com
+  roles:
+    - role: motd
+
+## Cambiar variables forma2
+---
+- name: use motd role playbook
+  hosts: remote.example.com
+  remote_user: devops
+  become: true
+  roles:
+   - role: motd
+     system_owner: someone@host.example.com
+```
+
+#### 8.4 Ansible Galaxy.
+- Ansible Galaxy es un repositorio de roles donde podemos buscar para descargar y utilizar roles desarrollados por la comunidad.
+- Se puede buscar en la web oficial o mediante línea de comandos.
+
+```bash
+## Instalar un rol (la opción -p instala en el directorio especificado)
+ansible-galaxy install geerlingguy.redis -p roles
+
+## Instalar un rol desde un archivo de requerimientos
+ansible-galaxy install -r roles/requirements.yml -p roles
+
+	## requirements.yml (también se pueden restaurar desde un repositorio privado, servidor web, etc)
+    - src: geerlingguy.redis
+      version: "1.5.0"
+```
 
 ### 9. Resolución de problemas.
-- Solución de problemas en playbooks.
-- Solución de problemas en hosts.
+#### 9.1 Solución de problemas en playbooks.
+- Para configurar un log de la salida de ansible podemos utilizar `log_path` en `ansible.cfg` o la variable de entorno `$ANSIBLE_LOG_PATH`.
+- El módulo `debug` sirve para identificar que sucede en la ejecución de una guía, al mostrar el valor de una variable.
+- El comando `ansible-playbook play.yml --step` solicita confirmación en cada tarea, para llevar un mejor control.
+- El comando `ansible-playbook play.yml --start-at-task="tarea1"` inicia la ejecución de la guía desde esa tarea.
+- Los problemas más habituales están relacionados con espacios y comillas en la escritura de la guía.
 
-### 10. Automatización de tareas RHCSA.
-- Software y subscripciones.
-- Usuarios y autenticación.
-- Arranque y procesos programados.
-- Almacenamiento.
-- Configuración de red.
+```yaml
+## Mostrar una variable con msg
+- name: Ver memoria libre
+  debug:
+    msg: "La memoria libre es {{ ansible_facts['memfree_mb'] }}"
+
+## Mostrar una variable con var
+- name: Display the "output" variable
+  debug:
+    var: output
+    verbosity: 2
+```
+
+#### 9.2 Solución de problemas en hosts.
+- La opción `ansible-playbook --check playbook.yml` simula la ejecución de la guía sin realizar cambios.
+- También se puede añadir a una tarea en concreto la opción `check_mode: yes` y siempre se ejecutará sin realizar cambios. Si `check_mode: no`, se ejecutará siempre aunque la guía se ejecute con `--check`.
+- La variable mágica `ansible_check_mode` identifica si la guía se está ejecutando en modo de verificación.
+- La opción `--diff` informa de los cambios realizados a los archivos de plantillas en los host administrados. Añadiendo `--check` se muestran pero no se realizan.
+- Para problemas con el hostname/IP en la conexión se puede personalizar con `h1.alberto.ws ansible_host=192.0.2.4` en el inventario.
+
+##### Módulos depurar problemas
+```yaml
+## uri: Verifica que la url responda con el contenido indicado
+ tasks:
+   - uri:
+        url: http://api.myapp.com
+        return_content: yes
+        register: apiresponse
+  - fail:
+       msg: 'version was not provided'
+       when: "'version' not in apiresponse.content"
+       
+## script: Ejecuta en un host administrado un script que está en el nodo de control y se copia en un host administrado.
+tasks:
+   - script: check_free_memory
+
+## stat: Recopila información para un archivo
+ tasks:
+   - name: Check if /var/run/app.lock exists
+     stat:
+        path: /var/run/app.lock
+    register: lock
+  - name: Fail if the application is running
+    fail:
+    when: lock.stat.exists
+    
+## assert: Se utiliza como alternativa al módulo fail.
+ tasks:
+   - name: Check if /var/run/app.lock exists
+     stat:
+       path: /var/run/app.lock
+     register: lock
+  - name: Fail if the application is running
+    assert:
+      that:
+        - not lock.stat.exists
+```
