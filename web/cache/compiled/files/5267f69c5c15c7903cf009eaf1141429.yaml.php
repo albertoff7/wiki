@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/system/config/media.yaml',
-    'modified' => 1589533852,
+    'modified' => 1591680872,
     'data' => [
         'types' => [
             'defaults' => [

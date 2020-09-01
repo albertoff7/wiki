@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/system/blueprints/config/system.yaml',
-    'modified' => 1589533852,
+    'modified' => 1591680872,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SYSTEM',
         'form' => [
@@ -288,13 +288,16 @@ return [
                                     ]
                                 ],
                                 'pages.hide_empty_folders' => [
-                                    'type' => 'selectize',
-                                    'size' => 'large',
+                                    'type' => 'toggle',
                                     'label' => 'PLUGIN_ADMIN.HIDE_EMPTY_FOLDERS',
                                     'help' => 'PLUGIN_ADMIN.HIDE_EMPTY_FOLDERS_HELP',
-                                    'classes' => 'fancy',
+                                    'highlight' => 0,
+                                    'options' => [
+                                        1 => 'PLUGIN_ADMIN.YES',
+                                        0 => 'PLUGIN_ADMIN.NO'
+                                    ],
                                     'validate' => [
-                                        'type' => 'commalist'
+                                        'type' => 'bool'
                                     ]
                                 ],
                                 'pages.url_taxonomy_filters' => [
@@ -608,6 +611,17 @@ return [
                                     ],
                                     'validate' => [
                                         'type' => 'bool'
+                                    ]
+                                ],
+                                'pages.markdown.valid_link_attributes' => [
+                                    'type' => 'selectize',
+                                    'size' => 'large',
+                                    'label' => 'PLUGIN_ADMIN.VALID_LINK_ATTRIBUTES',
+                                    'help' => 'PLUGIN_ADMIN.VALID_LINK_ATTRIBUTES_HELP',
+                                    'placeholder' => 'rel, target, id, class, classes',
+                                    'classes' => 'fancy',
+                                    'validate' => [
+                                        'type' => 'commalist'
                                     ]
                                 ]
                             ]

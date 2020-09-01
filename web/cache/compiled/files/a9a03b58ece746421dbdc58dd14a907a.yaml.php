@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/login/languages/uk.yaml',
-    'modified' => 1589040437,
+    'modified' => 1591993148,
     'data' => [
         'PLUGIN_LOGIN' => [
             'USERNAME' => 'Логін',
@@ -16,7 +16,10 @@ return [
             'BTN_LOGOUT' => 'Вийти',
             'BTN_FORGOT' => 'Забув',
             'BTN_REGISTER' => 'Реєстрація',
-            'BTN_RESET' => 'Скидання пароля',
+            'BTN_RESET_PASSWORD' => 'Скидання пароля',
+            'BTN_RESET' => 'Reset',
+            'BTN_SUBMIT' => 'Submit',
+            'BTN_SUBMIT_PROFILE' => 'Submit',
             'BTN_SEND_INSTRUCTIONS' => 'Надіслати інструкції по скиданню',
             'RESET_LINK_EXPIRED' => 'Час посилання для скидання минув, спробуйте ще раз',
             'RESET_PASSWORD_RESET' => 'Пароль був скинутий',
@@ -138,7 +141,14 @@ return [
             '2FA_REGENERATE' => 'Згенерувати повторно',
             'BTN_CANCEL' => 'Скасування',
             'MANUALLY_ENABLE' => 'Вручну включити',
-            'MANUALLY_ENABLE_HELP' => 'При використанні «активації по електронній пошті» і «повідомлення по електронній пошті» ви можете переконатися, що користувач може самостійно активуватися, але користувач вимагає ручного включення для входу в систему'
+            'MANUALLY_ENABLE_HELP' => 'При використанні «активації по електронній пошті» і «повідомлення по електронній пошті» ви можете переконатися, що користувач може самостійно активуватися, але користувач вимагає ручного включення для входу в систему',
+            'PROFILE_UPDATED' => 'Your profile has been updated',
+            'ENTER_EMAIL' => 'Enter your email',
+            'ENTER_NEW_PASSWORD' => 'Enter new password',
+            'ENTER_PASSWORD' => 'Enter a password',
+            'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+            'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+            'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.'
         ]
     ]
 ];

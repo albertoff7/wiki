@@ -98,7 +98,7 @@ class __TwigTemplate_88965eb118cff7ea6e29c09fd965d51db6fe3938858f53f4a9cd2799e61
         $this->displayBlock('group', $context, $blocks);
         // line 42
         echo "      ";
-        if ($this->getAttribute(($context["field"] ?? null), "description", [])) {
+        if ($this->getAttribute(($context["field"] ?? null), "description", [], "any", true, true)) {
             // line 43
             echo "        <div class=\"";
             echo ($context["form_field_extra_wrapper_classes"] ?? null);
@@ -279,7 +279,7 @@ class __TwigTemplate_88965eb118cff7ea6e29c09fd965d51db6fe3938858f53f4a9cd2799e61
           </div>
         {% endblock %}
       {% endblock %}
-      {% if field.description %}
+      {% if field.description is defined %}
         <div class=\"{{ form_field_extra_wrapper_classes }}\">
           <span class=\"form-description\">
             {{ form_field_description|raw }}
@@ -289,6 +289,7 @@ class __TwigTemplate_88965eb118cff7ea6e29c09fd965d51db6fe3938858f53f4a9cd2799e61
     </div>
   {% endblock %}
 </div>
-{% endblock %}", "forms/layouts/field.html.twig", "/var/www/html/user/plugins/form/templates/forms/layouts/field.html.twig");
+{% endblock %}
+", "forms/layouts/field.html.twig", "/var/www/html/user/plugins/form/templates/forms/layouts/field.html.twig");
     }
 }

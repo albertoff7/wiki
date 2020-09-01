@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/tntsearch/languages.yaml',
-    'modified' => 1589040480,
+    'modified' => 1591680908,
     'data' => [
         'en' => [
             'PLUGIN_TNTSEARCH' => [

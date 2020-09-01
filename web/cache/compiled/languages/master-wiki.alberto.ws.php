@@ -1,165 +1,165 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1589714905,
-    'checksum' => '6e970ebd8bd928d4718e72b33565001c',
+    'timestamp' => 1595795927,
+    'checksum' => '0ec165b6486aa0a9b2df989503b5e45a',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'bg' => [
                 'file' => 'system/languages/bg.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'et' => [
                 'file' => 'system/languages/et.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'eu' => [
                 'file' => 'system/languages/eu.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'fa' => [
                 'file' => 'system/languages/fa.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'he' => [
                 'file' => 'system/languages/he.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'id' => [
                 'file' => 'system/languages/id.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'is' => [
                 'file' => 'system/languages/is.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'ko' => [
                 'file' => 'system/languages/ko.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'sl' => [
                 'file' => 'system/languages/sl.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'zh' => [
                 'file' => 'system/languages/zh.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'zh-tw' => [
                 'file' => 'system/languages/zh-tw.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ]
         ],
         'user/plugins' => [
@@ -167,29 +167,9 @@ return [
                 'file' => 'user/plugins/markdown-notices/languages.yaml',
                 'modified' => 1588290210
             ],
-            'plugins/breadcrumbs' => [
-                'file' => 'user/plugins/breadcrumbs/languages.yaml',
-                'modified' => 1589055283
-            ],
-            'plugins/error' => [
-                'file' => 'user/plugins/error/languages.yaml',
-                'modified' => 1589120159
-            ],
-            'plugins/tntsearch' => [
-                'file' => 'user/plugins/tntsearch/languages.yaml',
-                'modified' => 1589040480
-            ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/languages.yaml',
                 'modified' => 1588290211
-            ],
-            'plugins/form' => [
-                'file' => 'user/plugins/form/languages.yaml',
-                'modified' => 1589534673
-            ],
-            'plugins/email' => [
-                'file' => 'user/plugins/email/languages.yaml',
-                'modified' => 1589534888
             ],
             'plugins/recaptchacontact' => [
                 'file' => 'user/plugins/recaptchacontact/languages.yaml',
@@ -198,214 +178,248 @@ return [
             'plugins/file-browser' => [
                 'file' => 'user/plugins/file-browser/languages.yaml',
                 'modified' => 1589554167
+            ],
+            'plugins/tntsearch' => [
+                'file' => 'user/plugins/tntsearch/languages.yaml',
+                'modified' => 1591680908
+            ],
+            'plugins/form' => [
+                'file' => 'user/plugins/form/languages.yaml',
+                'modified' => 1591680910
+            ],
+            'plugins/email' => [
+                'file' => 'user/plugins/email/languages.yaml',
+                'modified' => 1591680913
+            ],
+            'plugins/error' => [
+                'file' => 'user/plugins/error/languages.yaml',
+                'modified' => 1593685849
+            ],
+            'plugins/breadcrumbs' => [
+                'file' => 'user/plugins/breadcrumbs/languages.yaml',
+                'modified' => 1595792629
             ]
         ],
         'user/plugins/admin/languages' => [
             'ar' => [
                 'file' => 'user/plugins/admin/languages/ar.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'bg' => [
                 'file' => 'user/plugins/admin/languages/bg.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'br' => [
                 'file' => 'user/plugins/admin/languages/br.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'ca' => [
                 'file' => 'user/plugins/admin/languages/ca.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'cs' => [
                 'file' => 'user/plugins/admin/languages/cs.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'cy' => [
                 'file' => 'user/plugins/admin/languages/cy.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'da' => [
                 'file' => 'user/plugins/admin/languages/da.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'de' => [
                 'file' => 'user/plugins/admin/languages/de.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'el' => [
                 'file' => 'user/plugins/admin/languages/el.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'en' => [
                 'file' => 'user/plugins/admin/languages/en.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'es' => [
                 'file' => 'user/plugins/admin/languages/es.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'et' => [
                 'file' => 'user/plugins/admin/languages/et.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'eu' => [
                 'file' => 'user/plugins/admin/languages/eu.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'fa' => [
                 'file' => 'user/plugins/admin/languages/fa.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'fi' => [
                 'file' => 'user/plugins/admin/languages/fi.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'fr' => [
                 'file' => 'user/plugins/admin/languages/fr.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'he' => [
                 'file' => 'user/plugins/admin/languages/he.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'hr' => [
                 'file' => 'user/plugins/admin/languages/hr.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'hu' => [
                 'file' => 'user/plugins/admin/languages/hu.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'id' => [
                 'file' => 'user/plugins/admin/languages/id.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'it' => [
                 'file' => 'user/plugins/admin/languages/it.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'ja' => [
                 'file' => 'user/plugins/admin/languages/ja.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'ko' => [
                 'file' => 'user/plugins/admin/languages/ko.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'lt' => [
                 'file' => 'user/plugins/admin/languages/lt.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'nl' => [
                 'file' => 'user/plugins/admin/languages/nl.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'no' => [
                 'file' => 'user/plugins/admin/languages/no.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'pl' => [
                 'file' => 'user/plugins/admin/languages/pl.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'pt' => [
                 'file' => 'user/plugins/admin/languages/pt.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'ro' => [
                 'file' => 'user/plugins/admin/languages/ro.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'ru' => [
                 'file' => 'user/plugins/admin/languages/ru.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'sk' => [
                 'file' => 'user/plugins/admin/languages/sk.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'sl' => [
                 'file' => 'user/plugins/admin/languages/sl.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'sr' => [
                 'file' => 'user/plugins/admin/languages/sr.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'sv' => [
                 'file' => 'user/plugins/admin/languages/sv.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'th' => [
                 'file' => 'user/plugins/admin/languages/th.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'tlh' => [
                 'file' => 'user/plugins/admin/languages/tlh.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'tr' => [
                 'file' => 'user/plugins/admin/languages/tr.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'uk' => [
                 'file' => 'user/plugins/admin/languages/uk.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'vi' => [
                 'file' => 'user/plugins/admin/languages/vi.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'zh' => [
                 'file' => 'user/plugins/admin/languages/zh.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
             ],
             'zh-tw' => [
                 'file' => 'user/plugins/admin/languages/zh-tw.yaml',
-                'modified' => 1589040441
+                'modified' => 1591680905
+            ]
+        ],
+        'user/plugins/ganalytics/languages' => [
+            'de' => [
+                'file' => 'user/plugins/ganalytics/languages/de.yaml',
+                'modified' => 1591769545
+            ],
+            'en' => [
+                'file' => 'user/plugins/ganalytics/languages/en.yaml',
+                'modified' => 1591769545
+            ],
+            'es' => [
+                'file' => 'user/plugins/ganalytics/languages/es.yaml',
+                'modified' => 1591769545
             ]
         ],
         'user/plugins/login/languages' => [
             'de' => [
                 'file' => 'user/plugins/login/languages/de.yaml',
-                'modified' => 1589040437
+                'modified' => 1591993148
             ],
             'en' => [
                 'file' => 'user/plugins/login/languages/en.yaml',
-                'modified' => 1589040437
+                'modified' => 1591993148
             ],
             'es' => [
                 'file' => 'user/plugins/login/languages/es.yaml',
-                'modified' => 1589040437
+                'modified' => 1591993148
             ],
             'fr' => [
                 'file' => 'user/plugins/login/languages/fr.yaml',
-                'modified' => 1589040437
+                'modified' => 1591993148
             ],
             'hr' => [
                 'file' => 'user/plugins/login/languages/hr.yaml',
-                'modified' => 1589040437
+                'modified' => 1591993148
             ],
             'hu' => [
                 'file' => 'user/plugins/login/languages/hu.yaml',
-                'modified' => 1589040437
+                'modified' => 1591993148
             ],
             'no' => [
                 'file' => 'user/plugins/login/languages/no.yaml',
-                'modified' => 1589040437
+                'modified' => 1591993148
             ],
             'ro' => [
                 'file' => 'user/plugins/login/languages/ro.yaml',
-                'modified' => 1589040437
+                'modified' => 1591993148
             ],
             'ru' => [
                 'file' => 'user/plugins/login/languages/ru.yaml',
-                'modified' => 1589040437
+                'modified' => 1591993148
             ],
             'uk' => [
                 'file' => 'user/plugins/login/languages/uk.yaml',
-                'modified' => 1589040437
+                'modified' => 1591993148
             ]
         ]
     ],
@@ -423,7 +437,10 @@ return [
                 'BTN_LOGOUT' => 'Abmelden',
                 'BTN_FORGOT' => 'Vergessen',
                 'BTN_REGISTER' => 'Registrieren',
-                'BTN_RESET' => 'Passwort zurücksetzen',
+                'BTN_RESET_PASSWORD' => 'Passwort zurücksetzen',
+                'BTN_RESET' => 'Reset',
+                'BTN_SUBMIT' => 'Submit',
+                'BTN_SUBMIT_PROFILE' => 'Submit',
                 'BTN_SEND_INSTRUCTIONS' => 'Sende Anweisungen zum Zurücksetzen',
                 'RESET_LINK_EXPIRED' => 'Der Link zum Zurücksetzen ist abgelaufen. Bitte erneut versuchen.',
                 'RESET_PASSWORD_RESET' => 'Das Passwort wurde zurückgesetzt',
@@ -539,7 +556,64 @@ return [
                 '2FA_SECRET' => '2FA Secret',
                 '2FA_SECRET_HELP' => 'Scannen Sie diesen QR-Code in Ihre [Authenticator App](https://learn.getgrav.org/admin-panel/2fa#apps). Es ist sinnvoll, das Secret an einem sicheren Ort zu sichern, falls Sie Ihre App neu installieren müssen. In der [Grav Doku](https://learn.getgrav.org/admin-panel/2fa) finden Sie weitere Informationen.',
                 '2FA_REGENERATE' => 'Neu generieren',
-                'BTN_CANCEL' => 'Abbrechen'
+                'BTN_CANCEL' => 'Abbrechen',
+                'PROFILE_UPDATED' => 'Your profile has been updated',
+                'ENTER_EMAIL' => 'Enter your email',
+                'ENTER_NEW_PASSWORD' => 'Enter new password',
+                'ENTER_PASSWORD' => 'Enter a password',
+                'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+                'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+                'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.'
+            ],
+            'PLUGIN_GANALYTICS' => [
+                '_YES' => 'Ja',
+                '_NO' => 'Nein',
+                'ENABLED' => 'Aktiviert',
+                'DISABLED' => 'Deaktiviert',
+                'PLUGIN_STATUS' => 'Plugin Status',
+                'SECONDS' => 'Sekunden',
+                'SECTION_CONFIGURATION' => 'Einstellungen',
+                'SECTION_ADVANCED' => 'Erweitert',
+                'SECTION_COOKIE' => 'Cookie',
+                'SECTION_DEBUG' => 'Debugging',
+                'TACKING_ID' => 'Tracking-ID',
+                'TACKING_ID_HELP' => 'Google Analytics Tracking-ID',
+                'POSITION' => 'Code-Position',
+                'POSITION_HELP' => 'Position des Codes im HTML-Dokument (Head oder Body)',
+                'POSITION_HEAD' => 'Kopf',
+                'POSITION_BODY' => 'Inhaltsende',
+                'ASYNC' => 'Asynchron laden',
+                'ASYNC_HELP' => 'Erlaubt es modernen Browsern das Google Analytics Script im Voraus zu laden',
+                'FORCE_SSL' => 'SSL erzwingen',
+                'FORCE_SSL_HELP' => 'Alle Daten werden mit SSL gesendet, auch von unsicheren (HTTP) Seiten',
+                'ANONYMIZE_IP' => 'IP-Anonymisierung',
+                'ANONYMIZE_IP_HELP' => 'Aktiviert die Anonymisierung der IP-Adresse',
+                'OBJECT_NAME' => 'Globales (ga) Objekt',
+                'OBJECT_NAME_HELP' => 'Variablenname des globalen Google Analytics Objekts (ga)',
+                'BLOCKED_IPS' => 'Gesperrte IP-Adressen',
+                'BLOCKED_IPS_HELP' => 'Für die angegebenen IP-Adressen wird der Google Analytics Code nicht eingebunden',
+                'BLOCKED_IP_RANGES' => 'Gesperrte IP-Adressbereiche',
+                'BLOCKED_IP_RANGES_HELP' => 'Für die angegebenen IPv4- oder IPv6-Adressbereiche wird der Google Analytics Code nicht eingebunden',
+                'BLOCKED_IP_RANGES_VALUE' => 'Bereich (z.B. \'10.4.3.1-10.4.3.20\')',
+                'BLOCKING_COOKIE' => 'Sperr-Cookie',
+                'BLOCKING_COOKIE_HELP' => 'Name eines Sperr-Cookies, der - wenn gesetzt - die Einbindung von Google Analytics Code verhindert',
+                'COOKIE_CONFIG' => 'Eigene Konfiguration',
+                'COOKIE_CONFIG_HELP' => 'Soll eine eigene Cookie-Konfiguration oder die von Google Analytics genutzt werden',
+                'COOKIE_NAME' => 'Name',
+                'COOKIE_NAME_HELP' => 'Der Name des Google Analytics Cookie',
+                'COOKIE_DOMAIN' => 'Domain',
+                'COOKIE_DOMAIN_HELP' => 'Cookie Domain. Standardmäßig wird der Host-Name der aktuellen URL benutzt',
+                'COOKIE_EXPIRES' => 'Läuft ab',
+                'COOKIE_EXPIRES_HELP' => 'Die Ablaufzeit des Google Analytics Cookie. Standard sind zwei Jahre',
+                'DEBUG_STATUS' => 'Debug-Version',
+                'DEBUG_STATUS_HELP' => 'Aktiviert die Debugging-Version der analytics.js Bibliothek',
+                'DEBUG_TRACE' => 'Trace-Debugging',
+                'DEBUG_TRACE_HELP' => 'Ausführlichere Informationen werden auf der Konsole ausgegeben',
+                'OPTOUT_STATUS' => 'Tracking Opt-Out',
+                'OPTOUT_STATUS_HELP' => 'Besucher können das Tracking durch Google Analytics abschalten',
+                'OPTOUT_MESSAGE' => 'Bestätigung beim Opt-Out',
+                'OPTOUT_MESSAGE_HELP' => 'Angezeigte Bestätigung, wenn Tracking abgeschaltet wird',
+                'OPTOUT_HINT' => 'Damit Ihre Besucher Google Analytics Tracking abschalten können müssen Sie &quot;opt out&quot; hier aktivieren und den folgenden Link irgendwo auf Ihren Seiten einfügen:'
             ],
             'PLUGIN_ADMIN' => [
                 'ADMIN_BETA_MSG' => 'Dies ist eine Beta-Version! Benutzung auf eigene Gefahr...',
@@ -1311,9 +1385,50 @@ Sie haben **2FA** für dieses Konto aktiviert. Bitte benutzen Sie Ihre **2FA** A
                 'COMMAND' => 'Befehl',
                 'EXTRA_ARGUMENTS' => 'Zusätzliche Argumente'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Fehler',
-                'ERROR_MESSAGE' => 'Uuups. Sieht aus als ob diese Seite nicht existiert.'
+            'RECAPTCHACONTACT' => [
+                'FORM_LEGEND' => 'Kontaktiere mich',
+                'SUBJECT' => '[Grav] Kontaktanfrage',
+                'RECIPIENT' => 'name@provider.de',
+                'ADMIN' => [
+                    'HEADING' => 'Kontaktformular',
+                    'TOGGLE' => [
+                        'HELP' => 'Falls aktiviert wird das Kontaktformular auf diese Seite angezeigt.'
+                    ],
+                    'RECIPIENT' => [
+                        'LABEL' => 'E-Mail senden an',
+                        'HELP' => 'Empfohlen: Sendet das Formular an die angegebene Adresse.'
+                    ],
+                    'SUBJECT' => [
+                        'LABEL' => 'Betreff',
+                        'HELP' => 'Optional: Falls angegeben, überschreibt es den Betreff der E-Mail.'
+                    ]
+                ],
+                'FIELDS' => [
+                    'NAME' => [
+                        'LABEL' => 'Name',
+                        'PLACEHOLDER' => 'Dein Name'
+                    ],
+                    'EMAIL' => [
+                        'LABEL' => 'E-Mail',
+                        'PLACEHOLDER' => 'Deine E-Mail'
+                    ],
+                    'MESSAGE' => [
+                        'LABEL' => 'Nachricht',
+                        'PLACEHOLDER' => 'Deine Nachricht'
+                    ],
+                    'ANTISPAM' => [
+                        'LABEL' => 'Antispam',
+                        'PLACEHOLDER' => 'Dieses Feld für Antispam-Bots frei lassen.'
+                    ],
+                    'SUBMIT' => [
+                        'LABEL' => 'Abschicken'
+                    ]
+                ],
+                'MESSAGES' => [
+                    'SUCCESS' => 'Vielen Dank! Deine Nachricht wurde erfolgreich versendet.',
+                    'ERROR' => 'Oops! Mit der Übertragung gab es ein Problem. Bitte versuche es erneut.',
+                    'FAIL' => 'Oops! Versenden der Nachricht fehlgeschlagen.'
+                ]
             ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formularwerte nicht gültig. Für ein oder mehrere erforderliche Felder fehlen Werte.',
@@ -1370,50 +1485,9 @@ Sie haben **2FA** für dieses Konto aktiviert. Bitte benutzen Sie Ihre **2FA** A
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Bitte konfigurieren sie eine \'An\' (\'to\') Adresse in den Email-Plugin-Einstellungen oder im Formular.',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Bitte konfigurieren sie eine \'Von\' (\'from\') Adresse in den Email-Plugin-Einstellungen oder im Formular.'
             ],
-            'RECAPTCHACONTACT' => [
-                'FORM_LEGEND' => 'Kontaktiere mich',
-                'SUBJECT' => '[Grav] Kontaktanfrage',
-                'RECIPIENT' => 'name@provider.de',
-                'ADMIN' => [
-                    'HEADING' => 'Kontaktformular',
-                    'TOGGLE' => [
-                        'HELP' => 'Falls aktiviert wird das Kontaktformular auf diese Seite angezeigt.'
-                    ],
-                    'RECIPIENT' => [
-                        'LABEL' => 'E-Mail senden an',
-                        'HELP' => 'Empfohlen: Sendet das Formular an die angegebene Adresse.'
-                    ],
-                    'SUBJECT' => [
-                        'LABEL' => 'Betreff',
-                        'HELP' => 'Optional: Falls angegeben, überschreibt es den Betreff der E-Mail.'
-                    ]
-                ],
-                'FIELDS' => [
-                    'NAME' => [
-                        'LABEL' => 'Name',
-                        'PLACEHOLDER' => 'Dein Name'
-                    ],
-                    'EMAIL' => [
-                        'LABEL' => 'E-Mail',
-                        'PLACEHOLDER' => 'Deine E-Mail'
-                    ],
-                    'MESSAGE' => [
-                        'LABEL' => 'Nachricht',
-                        'PLACEHOLDER' => 'Deine Nachricht'
-                    ],
-                    'ANTISPAM' => [
-                        'LABEL' => 'Antispam',
-                        'PLACEHOLDER' => 'Dieses Feld für Antispam-Bots frei lassen.'
-                    ],
-                    'SUBMIT' => [
-                        'LABEL' => 'Abschicken'
-                    ]
-                ],
-                'MESSAGES' => [
-                    'SUCCESS' => 'Vielen Dank! Deine Nachricht wurde erfolgreich versendet.',
-                    'ERROR' => 'Oops! Mit der Übertragung gab es ein Problem. Bitte versuche es erneut.',
-                    'FAIL' => 'Oops! Versenden der Nachricht fehlgeschlagen.'
-                ]
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Fehler',
+                'ERROR_MESSAGE' => 'Uuups. Sieht aus als ob diese Seite nicht existiert.'
             ],
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---
@@ -1594,8 +1668,11 @@ Pfad: `%2$s`
                 'BTN_LOGOUT' => 'Logout',
                 'BTN_FORGOT' => 'Forgot',
                 'BTN_REGISTER' => 'Register',
-                'BTN_RESET' => 'Reset Password',
+                'BTN_SUBMIT_PROFILE' => 'Submit',
+                'BTN_RESET' => 'Reset',
+                'BTN_RESET_PASSWORD' => 'Reset Password',
                 'BTN_SEND_INSTRUCTIONS' => 'Send Reset Instructions',
+                'BTN_SUBMIT' => 'Submit',
                 'RESET_LINK_EXPIRED' => 'Reset link has expired, please try again',
                 'RESET_PASSWORD_RESET' => 'Password has been reset',
                 'RESET_INVALID_LINK' => 'Invalid reset link used, please try again',
@@ -1724,7 +1801,66 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'MANUALLY_ENABLE' => 'Manually Enable',
                 'MANUALLY_ENABLE_HELP' => 'When using \'activation email\' and \'notification email\', you can ensure the user can self activate, but requires manually enabling the user to login',
                 'IPV6_SUBNET_SIZE' => 'IPv6 Subnet Size',
-                'IPV6_SUBNET_SIZE_HELP' => 'The number of IPv6 addresses typically assigned to a machine'
+                'IPV6_SUBNET_SIZE_HELP' => 'The number of IPv6 addresses typically assigned to a machine',
+                'PROFILE_UPDATED' => 'Your profile has been updated',
+                'ENTER_EMAIL' => 'Enter your email',
+                'ENTER_NEW_PASSWORD' => 'Enter new password',
+                'ENTER_PASSWORD' => 'Enter a password',
+                'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+                'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+                'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.',
+                'SESSION_USER_SYNC' => 'Sync User in Session',
+                'SESSION_USER_SYNC_HELP' => 'If Enabled, user in the session is kept in sync with the stored user file. WARNING: This feature may break some existing plugins which update user object in the session without saving it to the filesystem using `$user->save()` method.'
+            ],
+            'PLUGIN_GANALYTICS' => [
+                '_YES' => 'Yes',
+                '_NO' => 'No',
+                'ENABLED' => 'Enabled',
+                'DISABLED' => 'Disabled',
+                'PLUGIN_STATUS' => 'Plugin status',
+                'SECONDS' => 'seconds',
+                'SECTION_CONFIGURATION' => 'Configuration',
+                'SECTION_ADVANCED' => 'Advanced',
+                'SECTION_COOKIE' => 'Cookie',
+                'SECTION_DEBUG' => 'Debug',
+                'TACKING_ID' => 'Tracking ID',
+                'TACKING_ID_HELP' => 'Google Analytics Tracking ID',
+                'POSITION' => 'Code Position',
+                'POSITION_HELP' => 'Code Position in the HTML document (head or body)',
+                'POSITION_HEAD' => 'Head',
+                'POSITION_BODY' => 'End of Body',
+                'ASYNC' => 'Load asynchronously',
+                'ASYNC_HELP' => 'Allow modern browsers to preload the Google Analytics script',
+                'FORCE_SSL' => 'Force SSL',
+                'FORCE_SSL_HELP' => 'Send all data using SSL, even from insecure (HTTP) pages',
+                'ANONYMIZE_IP' => 'IP Anonymization',
+                'ANONYMIZE_IP_HELP' => 'Enable the anonymization of the IP address',
+                'OBJECT_NAME' => 'Global (ga) Object',
+                'OBJECT_NAME_HELP' => 'Rename the global (ga) variable of the Google Analytics object',
+                'BLOCKED_IPS' => 'Blocked IP addresses',
+                'BLOCKED_IPS_HELP' => 'For the given IP addresses the Google Analytics code will not be embedded',
+                'BLOCKED_IP_RANGES' => 'Blocked IP address ranges',
+                'BLOCKED_IP_RANGES_HELP' => 'For the given IPv4 or IPv6 address ranges the Google Analytics code will not be embedded',
+                'BLOCKED_IP_RANGES_VALUE' => 'IP range (e.g. \'10.4.3.1-10.4.3.20\')',
+                'BLOCKING_COOKIE' => 'Blocking cookie',
+                'BLOCKING_COOKIE_HELP' => 'Name of a blocking cookie, which, when set, prevents Google Analytics code being embedded',
+                'COOKIE_CONFIG' => 'Custom Configuration',
+                'COOKIE_CONFIG_HELP' => 'Use a custom cookie configuration instead of the default one',
+                'COOKIE_NAME' => 'Name',
+                'COOKIE_NAME_HELP' => 'The Name of the Google Analytics cookie',
+                'COOKIE_DOMAIN' => 'Domain',
+                'COOKIE_DOMAIN_HELP' => 'The Cookie domain. Default is the hostname of the current URL',
+                'COOKIE_EXPIRES' => 'Expires',
+                'COOKIE_EXPIRES_HELP' => 'The expiration time of the Google Analytics cookie. Default is two years',
+                'DEBUG_STATUS' => 'Debug Version',
+                'DEBUG_STATUS_HELP' => 'Enable the debug version of the analytics.js library',
+                'DEBUG_TRACE' => 'Trace Debugging',
+                'DEBUG_TRACE_HELP' => 'Enabling trace debugging will output more verbose information to the console',
+                'OPTOUT_STATUS' => 'Tracking opt out',
+                'OPTOUT_STATUS_HELP' => 'Visitor can disable tracking by Google Analytics',
+                'OPTOUT_MESSAGE' => 'Confirmation on opt out',
+                'OPTOUT_MESSAGE_HELP' => 'Confirmation message shown to the visitor when she/he disables tracking',
+                'OPTOUT_HINT' => 'To give your users the possibility to disable Google Analytics tracking you have to enable &quot;opt out&quot; here and put the following link somewhere in your pages:'
             ],
             'PLUGIN_ADMIN' => [
                 'ADMIN_NOSCRIPT_MSG' => 'Please enable JavaScript in your browser.',
@@ -2555,7 +2691,9 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'DEBUGGER_DEBUGBAR' => 'PHP Debug Bar',
                 'DEBUGGER_CLOCKWORK' => 'Clockwork Browser Extension',
                 'SHOW_SENSITIVE' => 'Show Sensitive Data',
-                'SHOW_SENSITIVE_HELP' => 'Clockwork Provider ONLY: Censor potentially sensitive information (POST parameters, cookies, files, configuration and most array/object data in log messages)'
+                'SHOW_SENSITIVE_HELP' => 'Clockwork Provider ONLY: Censor potentially sensitive information (POST parameters, cookies, files, configuration and most array/object data in log messages)',
+                'VALID_LINK_ATTRIBUTES' => 'Valid Link Attributes',
+                'VALID_LINK_ATTRIBUTES_HELP' => 'Attributes that will be automatically added to the media HTML element'
             ],
             'PLUGIN_MARKDOWN_NOTICES' => [
                 'USE_BUILT_IN_CSS' => 'Use built-in CSS',
@@ -2566,29 +2704,92 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'LEVEL_CLASSES_HELP' => 'The classes to use for each level of notices depth',
                 'LEVEL_CLASSES_PLACEHOLDER' => 'e.g. yellow, red, blue, green'
             ],
-            'PLUGIN_BREADCRUMBS' => [
-                'SHOW_WITH_ONE_ITEM' => 'Show even with one item',
+            'PLUGIN_PROBLEMS' => [
                 'BUILTIN_CSS' => 'Use built in CSS',
-                'BUILTIN_CSS_HELP' => 'Include the CSS provided by the plugin',
-                'INCLUDE_HOME' => 'Include Home',
-                'INCLUDE_CURRENT_PAGE' => 'Include Current Page',
-                'ICON_HOME' => 'Icon home',
-                'ICON_DIVIDER_CLASSES' => 'Icon Divider Classes',
-                'LINK_TRAILING' => 'Link Trailing'
+                'BUILTIN_CSS_HELP' => 'Include the CSS provided by the Problems plugin'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Error',
-                'ERROR_MESSAGE' => 'Woops! La pagina no existe... prueba de nuevo desde el indice.',
-                'ROUTE_404' => '404 Route'
+            'RECAPTCHACONTACT' => [
+                'FORM_LEGEND' => 'Contact me',
+                'SUBJECT' => 'New contact from Grav site!',
+                'RECIPIENT' => 'hello@example.com',
+                'ADMIN' => [
+                    'HEADING' => 'Contact Form',
+                    'TOGGLE' => [
+                        'HELP' => 'If enabled, the form will display on this page.'
+                    ],
+                    'RECIPIENT' => [
+                        'LABEL' => 'Send Emails To',
+                        'HELP' => 'Recommended: the form will send the contact email to this address'
+                    ],
+                    'SUBJECT' => [
+                        'LABEL' => 'Email Subject',
+                        'HELP' => 'Optional: if entered, the email will contain this subject.'
+                    ]
+                ],
+                'FIELDS' => [
+                    'NAME' => [
+                        'LABEL' => 'Name',
+                        'PLACEHOLDER' => 'Add your name'
+                    ],
+                    'EMAIL' => [
+                        'LABEL' => 'Email',
+                        'PLACEHOLDER' => 'Add your email'
+                    ],
+                    'MESSAGE' => [
+                        'LABEL' => 'Message',
+                        'PLACEHOLDER' => 'Add your message'
+                    ],
+                    'ANTISPAM' => [
+                        'LABEL' => 'Antispam',
+                        'PLACEHOLDER' => 'Please leave this field empty for Antispam'
+                    ],
+                    'SUBMIT' => [
+                        'LABEL' => 'Submit'
+                    ]
+                ],
+                'MESSAGES' => [
+                    'SUCCESS' => 'Thank You! Your message has been sent.',
+                    'ERROR' => 'Oops! There was a problem with your submission. Please complete the form and try again.',
+                    'FAIL' => 'Oops! Something went wrong and we couldn\'t send your message.'
+                ]
+            ],
+            'PLUGIN_FILE_BROWSER' => [
+                'BUILTIN_CSS' => 'Built-in CSS',
+                'LOAD_FONT_AWESOME' => 'Load Font Awesome v5 Free',
+                'LOAD_FONT_AWESOME_HELP' => 'If your theme already includes FA5, you can safely disable this.',
+                'FA4_COMPATIBILITY' => 'Font Awesome v4 compatibility',
+                'FA4_COMPATIBILITY_HELP' => 'You will also need to redefine the icons below!',
+                'DEFAULT_SOURCE' => 'Default source',
+                'FONT_AWESOME_PRO' => 'Font Awesome Pro options',
+                'USE_ALT_ARROWS' => 'Use alt arrows (arrow-alt-*)',
+                'ICON_WEIGHT' => 'Icon weight',
+                'ICON_WEIGHT_FAS' => 'Solid (fas)',
+                'ICON_WEIGHT_FAR' => 'Regular (far)',
+                'ICON_WEIGHT_FAL' => 'Duotone (fad)',
+                'DEFAULT_VIEW' => 'Default view',
+                'TILE_VIEW' => 'Tile',
+                'LIST_VIEW' => 'List',
+                'COLOURISE_ICONS' => 'Colourise icons',
+                'COLOURISE_ICONS_HELP' => 'Add meaningful colours file icons, depending on their file types (eg. red for PDFs)',
+                'SHOW_THUMBNAILS' => 'Show thumbnails',
+                'BASE_TO_EXTEND' => 'Base template to extend',
+                'SHOW_HIDDEN_FILES' => 'Show hidden files',
+                'SORT_SECTION' => 'File sorting',
+                'SORT_NOTE' => 'Note: Sort icons default to \'fa-sort\'',
+                'SORT_SHOW' => 'Show sorting button',
+                'SORT_ASCENDING' => 'Ascending icon',
+                'SORT_DESCENDING' => 'Descending icon',
+                'SORT_REVERSE' => 'Reverse default sort direction',
+                'FILE_ICONS' => 'File icons',
+                'FILE_ICONS_TEXT' => 'If you are using FA4, you will need to redefine all of these. You can search for icons at: https://fontawesome.com/v4.7.0/icons/',
+                'FILE_ICON_DEFAULT' => 'Default file icon',
+                'FILE_ICONS_SPECIFIC' => 'Extension-specific icons',
+                'FILE_ICON_TYPES' => 'Icon types'
             ],
             'PLUGIN_TNTSEARCH' => [
                 'FOUND_RESULTS' => 'Found %s results',
                 'FOUND_IN' => 'in <span>%s</span>',
                 'POWERED_BY' => 'Powered by %s'
-            ],
-            'PLUGIN_PROBLEMS' => [
-                'BUILTIN_CSS' => 'Use built in CSS',
-                'BUILTIN_CSS_HELP' => 'Include the CSS provided by the Problems plugin'
             ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Form not validated. One or more required fields are missing.',
@@ -2711,83 +2912,20 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'QUEUE_FLUSH_TIME_LIMIT' => 'Flush time limit',
                 'QUEUE_FLUSH_TIME_LIMIT_APPEND' => 'Seconds'
             ],
-            'RECAPTCHACONTACT' => [
-                'FORM_LEGEND' => 'Contact me',
-                'SUBJECT' => 'New contact from Grav site!',
-                'RECIPIENT' => 'hello@example.com',
-                'ADMIN' => [
-                    'HEADING' => 'Contact Form',
-                    'TOGGLE' => [
-                        'HELP' => 'If enabled, the form will display on this page.'
-                    ],
-                    'RECIPIENT' => [
-                        'LABEL' => 'Send Emails To',
-                        'HELP' => 'Recommended: the form will send the contact email to this address'
-                    ],
-                    'SUBJECT' => [
-                        'LABEL' => 'Email Subject',
-                        'HELP' => 'Optional: if entered, the email will contain this subject.'
-                    ]
-                ],
-                'FIELDS' => [
-                    'NAME' => [
-                        'LABEL' => 'Name',
-                        'PLACEHOLDER' => 'Add your name'
-                    ],
-                    'EMAIL' => [
-                        'LABEL' => 'Email',
-                        'PLACEHOLDER' => 'Add your email'
-                    ],
-                    'MESSAGE' => [
-                        'LABEL' => 'Message',
-                        'PLACEHOLDER' => 'Add your message'
-                    ],
-                    'ANTISPAM' => [
-                        'LABEL' => 'Antispam',
-                        'PLACEHOLDER' => 'Please leave this field empty for Antispam'
-                    ],
-                    'SUBMIT' => [
-                        'LABEL' => 'Submit'
-                    ]
-                ],
-                'MESSAGES' => [
-                    'SUCCESS' => 'Thank You! Your message has been sent.',
-                    'ERROR' => 'Oops! There was a problem with your submission. Please complete the form and try again.',
-                    'FAIL' => 'Oops! Something went wrong and we couldn\'t send your message.'
-                ]
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Error',
+                'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.',
+                'ROUTE_404' => '404 Route'
             ],
-            'PLUGIN_FILE_BROWSER' => [
-                'BUILTIN_CSS' => 'Built-in CSS',
-                'LOAD_FONT_AWESOME' => 'Load Font Awesome v5 Free',
-                'LOAD_FONT_AWESOME_HELP' => 'If your theme already includes FA5, you can safely disable this.',
-                'FA4_COMPATIBILITY' => 'Font Awesome v4 compatibility',
-                'FA4_COMPATIBILITY_HELP' => 'You will also need to redefine the icons below!',
-                'DEFAULT_SOURCE' => 'Default source',
-                'FONT_AWESOME_PRO' => 'Font Awesome Pro options',
-                'USE_ALT_ARROWS' => 'Use alt arrows (arrow-alt-*)',
-                'ICON_WEIGHT' => 'Icon weight',
-                'ICON_WEIGHT_FAS' => 'Solid (fas)',
-                'ICON_WEIGHT_FAR' => 'Regular (far)',
-                'ICON_WEIGHT_FAL' => 'Duotone (fad)',
-                'DEFAULT_VIEW' => 'Default view',
-                'TILE_VIEW' => 'Tile',
-                'LIST_VIEW' => 'List',
-                'COLOURISE_ICONS' => 'Colourise icons',
-                'COLOURISE_ICONS_HELP' => 'Add meaningful colours file icons, depending on their file types (eg. red for PDFs)',
-                'SHOW_THUMBNAILS' => 'Show thumbnails',
-                'BASE_TO_EXTEND' => 'Base template to extend',
-                'SHOW_HIDDEN_FILES' => 'Show hidden files',
-                'SORT_SECTION' => 'File sorting',
-                'SORT_NOTE' => 'Note: Sort icons default to \'fa-sort\'',
-                'SORT_SHOW' => 'Show sorting button',
-                'SORT_ASCENDING' => 'Ascending icon',
-                'SORT_DESCENDING' => 'Descending icon',
-                'SORT_REVERSE' => 'Reverse default sort direction',
-                'FILE_ICONS' => 'File icons',
-                'FILE_ICONS_TEXT' => 'If you are using FA4, you will need to redefine all of these. You can search for icons at: https://fontawesome.com/v4.7.0/icons/',
-                'FILE_ICON_DEFAULT' => 'Default file icon',
-                'FILE_ICONS_SPECIFIC' => 'Extension-specific icons',
-                'FILE_ICON_TYPES' => 'Icon types'
+            'PLUGIN_BREADCRUMBS' => [
+                'SHOW_WITH_ONE_ITEM' => 'Show even with one item',
+                'BUILTIN_CSS' => 'Use built in CSS',
+                'BUILTIN_CSS_HELP' => 'Include the CSS provided by the plugin',
+                'INCLUDE_HOME' => 'Include Home',
+                'INCLUDE_CURRENT_PAGE' => 'Include Current Page',
+                'ICON_HOME' => 'Icon home',
+                'ICON_DIVIDER_CLASSES' => 'Icon Divider Classes',
+                'LINK_TRAILING' => 'Link Trailing'
             ],
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---
@@ -2972,7 +3110,10 @@ Path: `%2$s`
                 'BTN_LOGOUT' => 'Salir',
                 'BTN_FORGOT' => 'Olvidado',
                 'BTN_REGISTER' => 'Registro',
-                'BTN_RESET' => 'Restaurar contraseña',
+                'BTN_RESET_PASSWORD' => 'Restaurar contraseña',
+                'BTN_RESET' => 'Reset',
+                'BTN_SUBMIT' => 'Submit',
+                'BTN_SUBMIT_PROFILE' => 'Submit',
                 'BTN_SEND_INSTRUCTIONS' => 'Enviar instrucciones para restauración',
                 'RESET_LINK_EXPIRED' => 'El enlace para la restauración ha caducado, inténtelo de nuevo.',
                 'RESET_PASSWORD_RESET' => 'La contraseña ha sido restaurada',
@@ -3074,7 +3215,59 @@ Path: `%2$s`
                 'LOGGED_OUT' => 'Su sesión ha finalizado correctamente...',
                 'PAGE_RESTRICTED' => 'Acceso restringido, acceda con sus credenciales...',
                 'DYNAMIC_VISIBILITY' => 'Visibilidad de páginas dinámicas',
-                'DYNAMIC_VISIBILITY_HELP' => 'Permite el procesamiento de la visibilidad de páginas basada en reglas de acceso si login.visibility_requires_access es true en un página'
+                'DYNAMIC_VISIBILITY_HELP' => 'Permite el procesamiento de la visibilidad de páginas basada en reglas de acceso si login.visibility_requires_access es true en un página',
+                'PROFILE_UPDATED' => 'Your profile has been updated',
+                'ENTER_EMAIL' => 'Enter your email',
+                'ENTER_NEW_PASSWORD' => 'Enter new password',
+                'ENTER_PASSWORD' => 'Enter a password',
+                'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+                'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+                'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.'
+            ],
+            'PLUGIN_GANALYTICS' => [
+                '_YES' => 'Sí',
+                '_NO' => 'No',
+                'ENABLED' => 'Activo',
+                'DISABLED' => 'Inactivo',
+                'PLUGIN_STATUS' => 'Estado del Complemento',
+                'SECONDS' => 'segundos',
+                'SECTION_CONFIGURATION' => 'Configuración',
+                'SECTION_ADVANCED' => 'Avanzada',
+                'SECTION_COOKIE' => 'Cookie',
+                'SECTION_DEBUG' => 'Depuración',
+                'TACKING_ID' => 'ID Seguimiento',
+                'TACKING_ID_HELP' => 'ID Seguimiento estadísticas Google',
+                'POSITION' => 'Posición del Código',
+                'POSITION_HELP' => 'Posición del código en el documento HTML (cabecera o cuerpo)',
+                'POSITION_HEAD' => 'Cabecera',
+                'POSITION_BODY' => 'Final del cuerpo',
+                'ASYNC' => 'Cargar asíncronamente',
+                'ASYNC_HELP' => 'Pre-cargar el código de las estadísticas Google en aquellos navegadores que lo permitan',
+                'FORCE_SSL' => 'Forzar SSL',
+                'FORCE_SSL_HELP' => 'Enviar toda la información utilizando SSL, incluso desde páginas inseguras (HTTP)',
+                'ANONYMIZE_IP' => 'Anonimización IP',
+                'ANONYMIZE_IP_HELP' => 'Activar la anonimización de la dirección IP',
+                'OBJECT_NAME' => 'Objeto (ga) global',
+                'OBJECT_NAME_HELP' => 'Renombrar el objeto (ga) global de las estadísticas Google',
+                'BLOCKED_IPS' => 'Direcciones IP bloquedas',
+                'BLOCKED_IPS_HELP' => 'Para estas direcciones IP no se cargará el seguimiento de las estadísticas Google',
+                'COOKIE_CONFIG' => 'Configuración Personalizada',
+                'COOKIE_CONFIG_HELP' => 'Utilizar un cookie personalizado en vez del por defecto',
+                'COOKIE_NAME' => 'Nombre',
+                'COOKIE_NAME_HELP' => 'El nombre del cookie para las estadísticas Google',
+                'COOKIE_DOMAIN' => 'Dominio',
+                'COOKIE_DOMAIN_HELP' => 'El dominio del cookie. Por defecto se utilizará el hostname de la URL actual',
+                'COOKIE_EXPIRES' => 'Caduca',
+                'COOKIE_EXPIRES_HELP' => 'El tiempo de caducidad del cookie para las estadísticas Google. Por defecto es dos años',
+                'DEBUG_STATUS' => 'Versión Depuración',
+                'DEBUG_STATUS_HELP' => 'Activar la depuración en la librería analytics.js',
+                'DEBUG_TRACE' => 'Seguimiento Depuración',
+                'DEBUG_TRACE_HELP' => 'Activar el seguimiento de depuración para obtener más información en la consola',
+                'OPTOUT_STATUS' => 'Optar por no',
+                'OPTOUT_STATUS_HELP' => 'Los visitantes pueden desactivar el seguimiento de Google Analytics',
+                'OPTOUT_MESSAGE' => 'Confirmación en optar por no',
+                'OPTOUT_MESSAGE_HELP' => 'Confirmación mostrada cuando el seguimiento está desactivado',
+                'OPTOUT_HINT' => 'Para que sus visitantes puedan desactivar el seguimiento de Google Analytics, active &quot;opt out&quot; aquí e inserte el siguiente enlace en algún lugar de sus páginas:'
             ],
             'PLUGIN_ADMIN' => [
                 'ADMIN_BETA_MSG' => '¡Ésta es una versión Beta! Utilízala en producción bajo tu propio riesgo...',
@@ -3835,6 +4028,37 @@ Tienes **2FA** habilitado en esta cuenta. Por favor usa tu aplicación **2FA** p
                 'XSS_WHITELIST_PERMISSIONS' => 'Permisos de lista blanca',
                 'XSS_WHITELIST_PERMISSIONS_HELP' => 'Los usuarios con estos permisos omitirán las reglas XSS al guardar contenido'
             ],
+            'RECAPTCHACONTACT' => [
+                'FORM_LEGEND' => 'Contacta conmigo',
+                'SUBJECT' => '¡Nuevo contacto desde tu sitio GRAV!',
+                'RECIPIENT' => 'hello@example.com',
+                'FIELDS' => [
+                    'NAME' => [
+                        'LABEL' => 'Nombre',
+                        'PLACEHOLDER' => 'Añade tu nombre'
+                    ],
+                    'EMAIL' => [
+                        'LABEL' => 'Email',
+                        'PLACEHOLDER' => 'Añade tu email'
+                    ],
+                    'MESSAGE' => [
+                        'LABEL' => 'Mensaje',
+                        'PLACEHOLDER' => 'Añade tu mensaje'
+                    ],
+                    'ANTISPAM' => [
+                        'LABEL' => 'Antispam',
+                        'PLACEHOLDER' => 'Por favor, deja este campo libre para bloquear el Spam'
+                    ],
+                    'SUBMIT' => [
+                        'LABEL' => 'Enviar'
+                    ]
+                ],
+                'MESSAGES' => [
+                    'SUCCESS' => '¡Gracias! Tu mensaje ha sido enviado.',
+                    'ERROR' => '¡Uy! Hubo un problema con el envío. Por favor, rellena el formulario de nuevo.',
+                    'FAIL' => '¡Uy! Algo salió mal y no se pudo enviar el mensaje.'
+                ]
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Falló la validación del formulario. Uno o más campos obligatorios no fueron cubiertos.',
                 'NONCE_NOT_VALIDATED' => 'Oops, hay un problema, por favor revise la información e intente enviar el formulario otra vez.',
@@ -3893,37 +4117,6 @@ Tienes **2FA** habilitado en esta cuenta. Por favor usa tu aplicación **2FA** p
             'PLUGIN_EMAIL' => [
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Por favor configura una dirección de \'remitente\' en la configuración del Plugin de Email o en el formulario',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Por favor configura una dirección de \'destinatario\' en la configuración del Plugin de Email o en el formulario'
-            ],
-            'RECAPTCHACONTACT' => [
-                'FORM_LEGEND' => 'Contacta conmigo',
-                'SUBJECT' => '¡Nuevo contacto desde tu sitio GRAV!',
-                'RECIPIENT' => 'hello@example.com',
-                'FIELDS' => [
-                    'NAME' => [
-                        'LABEL' => 'Nombre',
-                        'PLACEHOLDER' => 'Añade tu nombre'
-                    ],
-                    'EMAIL' => [
-                        'LABEL' => 'Email',
-                        'PLACEHOLDER' => 'Añade tu email'
-                    ],
-                    'MESSAGE' => [
-                        'LABEL' => 'Mensaje',
-                        'PLACEHOLDER' => 'Añade tu mensaje'
-                    ],
-                    'ANTISPAM' => [
-                        'LABEL' => 'Antispam',
-                        'PLACEHOLDER' => 'Por favor, deja este campo libre para bloquear el Spam'
-                    ],
-                    'SUBMIT' => [
-                        'LABEL' => 'Enviar'
-                    ]
-                ],
-                'MESSAGES' => [
-                    'SUCCESS' => '¡Gracias! Tu mensaje ha sido enviado.',
-                    'ERROR' => '¡Uy! Hubo un problema con el envío. Por favor, rellena el formulario de nuevo.',
-                    'FAIL' => '¡Uy! Algo salió mal y no se pudo enviar el mensaje.'
-                ]
             ],
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---
@@ -4054,7 +4247,9 @@ Ruta: `%2$s`
                 'BTN_LOGOUT' => 'Déconnexion',
                 'BTN_FORGOT' => 'Mot de passe oublié',
                 'BTN_REGISTER' => 'S’enregister',
-                'BTN_RESET' => 'Réinitialiser le mot de passe',
+                'BTN_SUBMIT_PROFILE' => 'Enregistrer',
+                'BTN_RESET' => 'Réinitialiser',
+                'BTN_RESET_PASSWORD' => 'Réinitialiser le mot de passe',
                 'BTN_SEND_INSTRUCTIONS' => 'Envoyer les instructions de Réinitialisation',
                 'RESET_LINK_EXPIRED' => 'Le lien de réinitialisation a expiré, veuillez réessayer',
                 'RESET_PASSWORD_RESET' => 'Le mot de passe a été réinitialisé',
@@ -4130,7 +4325,13 @@ Ruta: `%2$s`
                 'USE_PARENT_ACL_LABEL' => 'Appliquer les règles d’accès parentes',
                 'USE_PARENT_ACL_HELP' => 'Utiliser les règles d’accès parentes si aucune règle n’a été définie',
                 'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => 'Protéger le média d\'une page par une protection par connexion',
-                'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Si activé, les médias d\'une page protégée par connexion sera également protégé par un système de connexion et ne pourra pas être visible à moins d\'être connecté.'
+                'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Si activé, les médias d\'une page protégée par connexion sera également protégé par un système de connexion et ne pourra pas être visible à moins d\'être connecté.',
+                'PROFILE_UPDATED' => 'Votre profil a été mis à jour',
+                'ENTER_EMAIL' => 'Saisir votre e-mail',
+                'ENTER_NEW_PASSWORD' => 'Saisir un nouveau mot de passe',
+                'ENTER_PASSWORD' => 'Saisir votre mot de passe',
+                'ENTER_PASSWORD_AGAIN' => 'Confirmer votre mot de passe',
+                'REGISTRATION_THANK_YOU' => 'Merci pour votre inscription.'
             ],
             'PLUGIN_ADMIN' => [
                 'ADMIN_BETA_MSG' => 'Ceci est une version bêta ! Utilisez-là en production à vos risques et périls...',
@@ -4952,9 +5153,36 @@ L\'**authentification à deux facteurs** est activée sur ce compte. Veuillez ut
                 'COMMAND' => 'Commande',
                 'EXTRA_ARGUMENTS' => 'Arguments supplémentaires'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Erreur',
-                'ERROR_MESSAGE' => 'Oups. Il semble que cette page n’existe pas.'
+            'RECAPTCHACONTACT' => [
+                'FORM_LEGEND' => 'Me contacter',
+                'SUBJECT' => 'Nouveau contact du site de Grav !',
+                'RECIPIENT' => 'hello@exemple.com',
+                'FIELDS' => [
+                    'NAME' => [
+                        'LABEL' => 'Nom',
+                        'PLACEHOLDER' => 'Ajoutez votre nom'
+                    ],
+                    'EMAIL' => [
+                        'LABEL' => 'E-mail',
+                        'PLACEHOLDER' => 'Ajoutez votre e-mail'
+                    ],
+                    'MESSAGE' => [
+                        'LABEL' => 'Message',
+                        'PLACEHOLDER' => 'Ajoutez votre message'
+                    ],
+                    'ANTISPAM' => [
+                        'LABEL' => 'Antispam',
+                        'PLACEHOLDER' => 'Veuillez laisser ce champ vide pour l\'antispam'
+                    ],
+                    'SUBMIT' => [
+                        'LABEL' => 'Envoyer'
+                    ]
+                ],
+                'MESSAGES' => [
+                    'SUCCESS' => 'Merci ! Votre message a bien été envoyé.',
+                    'ERROR' => 'Oups ! Une erreur s\'est produite lors de l\'envoi. Veuillez renseigner à nouveau le formulaire et réessayer.',
+                    'FAIL' => 'Oups ! Une erreur s\'est produite et il a été impossible d\'envoyer votre message.'
+                ]
             ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formulaire non validé. Un ou plusieurs champs obligatoires sont manquants.',
@@ -5019,36 +5247,9 @@ L\'**authentification à deux facteurs** est activée sur ce compte. Veuillez ut
                 'TEST_EMAIL_BODY' => '<h1>E-mail de test</h1><p>Cet e-mail de test est basé sur la configuration suivante :</p>  <p><pre>%1$s</pre></p>',
                 'EMAIL_FOOTER' => 'GetGrav.org'
             ],
-            'RECAPTCHACONTACT' => [
-                'FORM_LEGEND' => 'Me contacter',
-                'SUBJECT' => 'Nouveau contact du site de Grav !',
-                'RECIPIENT' => 'hello@exemple.com',
-                'FIELDS' => [
-                    'NAME' => [
-                        'LABEL' => 'Nom',
-                        'PLACEHOLDER' => 'Ajoutez votre nom'
-                    ],
-                    'EMAIL' => [
-                        'LABEL' => 'E-mail',
-                        'PLACEHOLDER' => 'Ajoutez votre e-mail'
-                    ],
-                    'MESSAGE' => [
-                        'LABEL' => 'Message',
-                        'PLACEHOLDER' => 'Ajoutez votre message'
-                    ],
-                    'ANTISPAM' => [
-                        'LABEL' => 'Antispam',
-                        'PLACEHOLDER' => 'Veuillez laisser ce champ vide pour l\'antispam'
-                    ],
-                    'SUBMIT' => [
-                        'LABEL' => 'Envoyer'
-                    ]
-                ],
-                'MESSAGES' => [
-                    'SUCCESS' => 'Merci ! Votre message a bien été envoyé.',
-                    'ERROR' => 'Oups ! Une erreur s\'est produite lors de l\'envoi. Veuillez renseigner à nouveau le formulaire et réessayer.',
-                    'FAIL' => 'Oups ! Une erreur s\'est produite et il a été impossible d\'envoyer votre message.'
-                ]
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Erreur',
+                'ERROR_MESSAGE' => 'Oups. Il semble que cette page n’existe pas.'
             ],
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---
@@ -5205,6 +5406,11 @@ Chemin: `%2$s`
                 'BTN_FORGOT' => 'Zaboravih',
                 'BTN_REGISTER' => 'Registriraj',
                 'REMEMBER_ME' => 'Zapamti me',
+                'BTN_RESET_PASSWORD' => 'Reset Password',
+                'BTN_RESET' => 'Reset',
+                'BTN_SEND_INSTRUCTIONS' => 'Send Reset Instructions',
+                'BTN_SUBMIT' => 'Submit',
+                'BTN_SUBMIT_PROFILE' => 'Submit',
                 'BUILTIN_CSS' => 'Koristi ugrađeni CSS',
                 'BUILTIN_CSS_HELP' => 'Uključi CSS koji dolazi sa admin pluginom',
                 'ROUTE' => 'Putanja prijave',
@@ -5237,7 +5443,14 @@ Chemin: `%2$s`
                 'REGISTRATION_FIELDS' => 'Registracijska polja',
                 'REGISTRATION_FIELDS_HELP' => 'Add the fields that will be added to the user yaml file. Fields not listed here will not be added even if present in the registration form',
                 'REGISTRATION_FIELD_KEY' => 'Ime polja',
-                'OPTIONS' => 'Opcije'
+                'OPTIONS' => 'Opcije',
+                'PROFILE_UPDATED' => 'Your profile has been updated',
+                'ENTER_EMAIL' => 'Enter your email',
+                'ENTER_NEW_PASSWORD' => 'Enter new password',
+                'ENTER_PASSWORD' => 'Enter a password',
+                'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+                'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+                'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.'
             ],
             'PLUGIN_ADMIN' => [
                 'ADMIN_BETA_MSG' => 'Ovo je Beta izdanje! Koristite u produkciji na vlastiti rizik...',
@@ -5848,10 +6061,6 @@ Chemin: `%2$s`
                 'TOOLS_DIRECT_INSTALL_URL_TITLE' => 'Instaliraj Paket kroz link',
                 'TOOLS_DIRECT_INSTALL_UPLOAD_BUTTON' => 'Uploadaj i instaliraj'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Greška',
-                'ERROR_MESSAGE' => 'Uups. Izgleda da ova stranica ne postoji.'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formular nije validiran. Jedan ili više traženih polja nedostaju.',
                 'NONCE_NOT_VALIDATED' => 'Ups, došlo je do problema, molimo provjerite svoj unos i pokušajte opet.',
@@ -5867,6 +6076,10 @@ Chemin: `%2$s`
                 'EMAIL_NOT_CONFIGURED' => 'Email nije konfiguriran',
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurirajte \'za\' (\'to\') adresu u postavkama Email dodatka ili u obrascu',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurirajte \'od\' (\'from\') adresu u postavkama Email dodatka ili u obrascu'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Greška',
+                'ERROR_MESSAGE' => 'Uups. Izgleda da ova stranica ne postoji.'
             ],
             'GRAV' => [
                 'INFLECTOR_UNCOUNTABLE' => [
@@ -5961,6 +6174,11 @@ Chemin: `%2$s`
                 'BTN_LOGOUT' => 'Kilépés',
                 'BTN_FORGOT' => 'Elfelejtettem',
                 'BTN_REGISTER' => 'Regisztráció',
+                'BTN_RESET_PASSWORD' => 'Reset Password',
+                'BTN_RESET' => 'Reset',
+                'BTN_SEND_INSTRUCTIONS' => 'Send Reset Instructions',
+                'BTN_SUBMIT' => 'Submit',
+                'BTN_SUBMIT_PROFILE' => 'Submit',
                 'REMEMBER_ME' => 'Jegyezz meg',
                 'REMEMBER_ME_HELP' => 'Elhelyezünk egy hosszú lejáratú sütit a böngésződben, hogy belépve maradhass két munkamenet között.',
                 'REMEMBER_ME_STOLEN_COOKIE' => 'Valaki a belépési adataid felhasználásával látogatta meg ezt az oldalt! Minden munkamenetet kiléptettünk. Kérlek, jelentkezz be ismét és ellenőrizd az adataidat.',
@@ -5973,7 +6191,14 @@ Chemin: `%2$s`
                 'USERNAME_NOT_VALID' => 'A felhasználónév 3-16 karakter hosszú legyen, tartalmazhat kisbetűket, számokat, aláhúzást és kötőjelet. Nagybetűk, szóköz és speciális karakterek használata nem megengedett',
                 'USERNAME_NOT_AVAILABLE' => '%s nevű felhasználó már létezik, kérlek válassz más felhasználónevet',
                 'PASSWORD_NOT_VALID' => 'A jelszónak tartalmaznia kell legalább egy számot, egy kisbetűt és egy nagybetűt, valamint legalább 8 karakter hosszú kell, hogy legyen',
-                'PASSWORDS_DO_NOT_MATCH' => 'A két jelszó nem egyezik meg. Győzödj meg róla, hogy azonos legyen a kettő'
+                'PASSWORDS_DO_NOT_MATCH' => 'A két jelszó nem egyezik meg. Győzödj meg róla, hogy azonos legyen a kettő',
+                'PROFILE_UPDATED' => 'Your profile has been updated',
+                'ENTER_EMAIL' => 'Enter your email',
+                'ENTER_NEW_PASSWORD' => 'Enter new password',
+                'ENTER_PASSWORD' => 'Enter a password',
+                'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+                'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+                'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.'
             ],
             'PLUGIN_ADMIN' => [
                 'ADMIN_BETA_MSG' => 'Ez egy béta kiadás! Éles környezetben csak saját felelősségre használd...',
@@ -6738,13 +6963,66 @@ Beállítottad a **Kétlépcsős Hitelesítést** ehhez a fiókhoz. Kérlek hasz
                 'NOT_VALIDATED' => 'Érvénytelen az űrlap. Egy vagy több kötelező mező nincs kitöltve.',
                 'NONCE_NOT_VALIDATED' => 'Upsz, van egy kis probléma, kérlek nézd át az űrlapot, majd küldd el újra.',
                 'FILES' => 'Fájlok Feltöltése',
+                'FORM_ALREADY_SUBMITTED' => 'Ez az űrlap már el lett küldve.',
                 'ALLOW_MULTIPLE' => 'Több fájl feltöltése',
                 'ALLOW_MULTIPLE_HELP' => 'Engedélyezi egyszerre több állomány feltöltését.',
                 'DESTINATION' => 'Feltöltés Helye',
                 'DESTINATION_HELP' => 'Ide lesznek feltöltve az állományok',
                 'ACCEPT' => 'Engedélyezett MIME-típusok',
                 'ACCEPT_HELP' => 'A feltölthető állományok MIME-típusainak listája',
-                'ERROR_VALIDATING_CAPTCHA' => 'Hiba lépett fel a Captcha validálása során'
+                'ERROR_VALIDATING_CAPTCHA' => 'Hiba lépett fel a Captcha validálása során',
+                'DATA_SUMMARY' => 'Üzenet összesítő:',
+                'NO_FORM_DATA' => 'Űrlap adatok nem elérhetőek.',
+                'RECAPTCHA' => 'reCAPTCHA',
+                'RECAPTCHA_VERSION' => 'Verzió',
+                'RECAPTCHA_VERSION_V2_CHECKBOX' => 'v2 - Kijelölőnégyzet',
+                'RECAPTCHA_VERSION_V2_INVISIBLE' => 'v2 - Láthatatlan',
+                'RECAPTCHA_VERSION_V3_LATEST' => 'v3 - Legutolsó',
+                'RECAPTCHA_THEME' => 'Téma',
+                'RECAPTCHA_THEME_LIGHT' => 'Világos téma',
+                'RECAPTCHA_THEME_DARK' => 'Sötét téma',
+                'RECAPTCHA_SITE_KEY' => 'Site kulcs',
+                'RECAPTCHA_SITE_KEY_HELP' => 'További információért látogass el ide a https://developers.google.com/recaptcha webhelyre.',
+                'RECAPTCHA_SECRET_KEY' => 'Secret kulcs',
+                'RECAPTCHA_SECRET_KEY_HELP' => 'További információért látogass el ide a https://developers.google.com/recaptcha webhelyre.',
+                'GENERAL' => 'Általános',
+                'USE_BUILT_IN_CSS' => 'Alapértelmezett CSS használata',
+                'USE_INLINE_CSS' => 'Beágyazott CSS használata',
+                'FILEUPLOAD_PREVENT_SELF' => '"%s" nem használható oldalakon kívül.',
+                'FILEUPLOAD_UNABLE_TO_UPLOAD' => 'Sikertelen fájlfeltöltés %s: %s',
+                'FILEUPLOAD_UNABLE_TO_MOVE' => '%s áthelyezése sikertelen ide: "%s"',
+                'DROPZONE_CANCEL_UPLOAD' => 'Feltöltés megszakítása',
+                'DROPZONE_CANCEL_UPLOAD_CONFIRMATION' => 'Biztos megszakítsuk a feltöltést?',
+                'DROPZONE_DEFAULT_MESSAGE' => 'Húzza a fájlokat ide vagy <strong>kattintson a területre</strong>',
+                'DROPZONE_FALLBACK_MESSAGE' => 'A böngésző nem támogatja a drag and drop fájlfeltöltéseket.',
+                'DROPZONE_FALLBACK_TEXT' => 'Kérjük használja a kompatibilitási űrlapot vagy a hagyományos fájfeltöltést.',
+                'DROPZONE_FILE_TOO_BIG' => 'Túl nagy állomány ({{filesize}}MiB). Maximum fájlméret: {{maxFilesize}}MiB.',
+                'DROPZONE_INVALID_FILE_TYPE' => 'Ilyen típusú fájlok feltöltése nem megengedett.',
+                'DROPZONE_MAX_FILES_EXCEEDED' => 'További fájlok feltöltése nem megengedett, elérte a maximumot.',
+                'DROPZONE_REMOVE_FILE' => 'Fájl eltávolítása',
+                'DROPZONE_REMOVE_FILE_CONFIRMATION' => 'Biztos az eltávolításban?',
+                'DROPZONE_RESPONSE_ERROR' => 'Szerver hiba, kód: {{statusCode}}.',
+                1 => 'Igen',
+                '' => 'Nem',
+                'REFRESH_PREVENTION' => 'Újratöltési védelem',
+                'REFRESH_PREVENTION_HELP' => 'Az űrlap egyedi azonosítójának használata annak érdekében hogy az űrlap ne legyen újrafeldolgozva oldalfrissítés esetén.',
+                'LIMIT' => 'Limit',
+                'LIMIT_HELP' => 'Az egy mezőben megadható fájlok maximális száma. (multiple required)',
+                'FILESIZE' => 'Maximum fájlméret',
+                'FILESIZE_HELP' => 'Maximum engedélyezett fájlméret (MB-ban), 0 = Rendszer alapértelmezés használata.',
+                'AVOID_OVERWRITING' => 'Felülírás elkerülése',
+                'AVOID_OVERWRITING_HELP' => 'A már létező fájlok felülírásának elkerülése, dátum előtag hozzáadásával a fájlnévhez.',
+                'RANDOM_NAME' => 'Véletlenszerű név',
+                'RANDOM_NAME_HELP' => 'Generáljon egy 15 karakter hosszú véletlenszerű nevet a feltöltött fájloknak.',
+                'CLIENT_SIDE_VALIDATION' => 'Kliens oldali validáció',
+                'CLIENT_SIDE_VALIDATION_HELP' => 'Az űrlapok HTML5 kliens oldali validációt használnak alapértelmezésként, mint első védelmi vonal.',
+                'INLINE_ERRORS' => 'Beágyazott hibaüzenetek',
+                'INLINE_ERRORS_HELP' => 'Beágyazott kontextuális űrlaphibák megjelenítése, hasznos ha a \'Kliens oldali validáció\' ki van kapcsolva.',
+                'RESOLUTION_MIN' => 'A(z) {{attr}} érték kisebb mint a minimum {{min}}px <br />',
+                'RESOLUTION_MAX' => 'A(z) {{attr}} érték nagyobb mint a maximum {{max}}px <br />',
+                'DESTINATION_NOT_SPECIFIED' => 'A feltöltés helye nincs megadva.',
+                'INVALID_MIME_TYPE' => 'MIME-típus %s nem engedélyezett. Állomány: %s.',
+                'INVALID_FILE_EXTENSION' => 'A(z) %s állomány kiterjesztése nem engedélyezett.'
             ],
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---
@@ -6877,7 +7155,10 @@ Elérési út: `%2$s`
                 'BTN_LOGOUT' => 'Logg ut',
                 'BTN_FORGOT' => 'Glemt passord',
                 'BTN_REGISTER' => 'Registrer',
-                'BTN_RESET' => 'Tilbakestill Passord',
+                'BTN_RESET_PASSWORD' => 'Tilbakestill Passord',
+                'BTN_RESET' => 'Reset',
+                'BTN_SUBMIT' => 'Submit',
+                'BTN_SUBMIT_PROFILE' => 'Submit',
                 'BTN_SEND_INSTRUCTIONS' => 'Send instruksjoner for tilbakestilling',
                 'RESET_LINK_EXPIRED' => 'Tilbakestillingslenke har utløpt, vennligst prøv igjen',
                 'RESET_PASSWORD_RESET' => 'Passord har blitt nullstilt',
@@ -6926,7 +7207,14 @@ Elérési út: `%2$s`
                 'ROUTE_FORGOT' => 'Adresse for &rdquo;Glemt passord&rdquo;',
                 'ROUTE_RESET' => 'Adresse for tilbakestilling av passord',
                 'ROUTE_PROFILE' => 'Adresse til brukerprofil',
-                'PAGE_RESTRICTED' => 'Begrenset tilgang, vennligst logg inn...'
+                'PAGE_RESTRICTED' => 'Begrenset tilgang, vennligst logg inn...',
+                'PROFILE_UPDATED' => 'Your profile has been updated',
+                'ENTER_EMAIL' => 'Enter your email',
+                'ENTER_NEW_PASSWORD' => 'Enter new password',
+                'ENTER_PASSWORD' => 'Enter a password',
+                'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+                'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+                'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.'
             ],
             'PLUGIN_ADMIN' => [
                 'ADMIN_BETA_MSG' => 'Dette er en betaversjon! Bruk denne i produksjon på egen risiko...',
@@ -7722,7 +8010,10 @@ Sti: `%2$s`
                 'BTN_LOGOUT' => 'Ieșire din cont ',
                 'BTN_FORGOT' => 'Am uitat',
                 'BTN_REGISTER' => 'Înregistrare',
-                'BTN_RESET' => 'Resetează parola',
+                'BTN_RESET_PASSWORD' => 'Resetează parola',
+                'BTN_RESET' => 'Reset',
+                'BTN_SUBMIT' => 'Submit',
+                'BTN_SUBMIT_PROFILE' => 'Submit',
                 'BTN_SEND_INSTRUCTIONS' => 'Trimite instrucțiuni pentru resetare',
                 'RESET_LINK_EXPIRED' => 'Link-ul pentru resetarea parolei a expirat, vă rugăm încercați din nou ',
                 'RESET_PASSWORD_RESET' => 'Parola a fost modificată',
@@ -7797,7 +8088,14 @@ Sti: `%2$s`
                 'USE_PARENT_ACL_LABEL' => 'Folosește regulile de acces ale părintelui',
                 'USE_PARENT_ACL_HELP' => 'Verifică regulie de acces ale părintelui dacă nu sunt specificate alte reguli de acces',
                 'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => ' Protejează media ce aparține paginii de logare ',
-                'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Dacă este activată, media ce aparține unei pagini de logare este protejată și nu poate fi accesată decât după logare.'
+                'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Dacă este activată, media ce aparține unei pagini de logare este protejată și nu poate fi accesată decât după logare.',
+                'PROFILE_UPDATED' => 'Your profile has been updated',
+                'ENTER_EMAIL' => 'Enter your email',
+                'ENTER_NEW_PASSWORD' => 'Enter new password',
+                'ENTER_PASSWORD' => 'Enter a password',
+                'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+                'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+                'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.'
             ],
             'PLUGIN_ADMIN' => [
                 'ADMIN_BETA_MSG' => 'Aceasta este o versiune Beta! Folosiți-o pe propiul risc...',
@@ -8619,10 +8917,6 @@ Aveți **2FA** activată pentru acest cont. Vă rugăm folosiți aplicația pent
                 'COMMAND' => 'Comandă',
                 'EXTRA_ARGUMENTS' => 'Argumente extra'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Eroare',
-                'ERROR_MESSAGE' => 'Ooops. Se pare că pagina nu există.'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formularul nu a fost validat. Unul sau mai multe câmpuri sunt goale.',
                 'NONCE_NOT_VALIDATED' => 'Oops a apărut o problemă, vă rugăm verificați datele introduse și trimiteți formularul din nou.',
@@ -8646,6 +8940,10 @@ Aveți **2FA** activată pentru acest cont. Vă rugăm folosiți aplicația pent
                 'EMAIL_NOT_CONFIGURED' => 'Adresa de email nu este configurată',
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Vă rugam setați o adresă \'către\' în setările modulului Email sau în formular',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Vă rugam setați o adresă \'de la\' în setările modulului Email sau în formular'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Eroare',
+                'ERROR_MESSAGE' => 'Ooops. Se pare că pagina nu există.'
             ],
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---
@@ -8774,7 +9072,10 @@ Calea: `%2$s`
                 'BTN_LOGOUT' => 'Выйти',
                 'BTN_FORGOT' => 'Забыл',
                 'BTN_REGISTER' => 'Регистрация',
-                'BTN_RESET' => 'Сброс пароля',
+                'BTN_RESET_PASSWORD' => 'Сброс пароля',
+                'BTN_RESET' => 'Reset',
+                'BTN_SUBMIT' => 'Submit',
+                'BTN_SUBMIT_PROFILE' => 'Submit',
                 'BTN_SEND_INSTRUCTIONS' => 'Отправить инструкции по сбросу',
                 'RESET_LINK_EXPIRED' => 'Время ссылки для сброса истекло, повторите попытку',
                 'RESET_PASSWORD_RESET' => 'Пароль был сброшен',
@@ -8896,7 +9197,14 @@ Calea: `%2$s`
                 '2FA_REGENERATE' => 'Сгенерировать повторно',
                 'BTN_CANCEL' => 'Отмена',
                 'MANUALLY_ENABLE' => 'Вручную включить',
-                'MANUALLY_ENABLE_HELP' => 'При использовании «активации по электронной почте» и «уведомление по электронной почте» вы можете убедиться, что пользователь может самостоятельно активироваться, но пользователь требует ручного включения для входа в систему'
+                'MANUALLY_ENABLE_HELP' => 'При использовании «активации по электронной почте» и «уведомление по электронной почте» вы можете убедиться, что пользователь может самостоятельно активироваться, но пользователь требует ручного включения для входа в систему',
+                'PROFILE_UPDATED' => 'Your profile has been updated',
+                'ENTER_EMAIL' => 'Enter your email',
+                'ENTER_NEW_PASSWORD' => 'Enter new password',
+                'ENTER_PASSWORD' => 'Enter a password',
+                'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+                'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+                'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.'
             ],
             'PLUGIN_ADMIN' => [
                 'ADMIN_BETA_MSG' => 'Это бета-релиз! Используете его в продакшене на свой страх и риск...',
@@ -9720,29 +10028,59 @@ Calea: `%2$s`
                 'LEVEL_CLASSES_HELP' => 'Эти классы используются на каждом уровне глубины уведомлений',
                 'LEVEL_CLASSES_PLACEHOLDER' => 'например yellow, red, blue, green'
             ],
-            'PLUGIN_BREADCRUMBS' => [
-                'SHOW_WITH_ONE_ITEM' => 'Показывать даже с одним элементом',
+            'PLUGIN_PROBLEMS' => [
                 'BUILTIN_CSS' => 'Использовать встроенный CSS',
-                'BUILTIN_CSS_HELP' => 'Включить CSS, предоставляемый плагином',
-                'INCLUDE_HOME' => 'Включить главную страницу',
-                'INCLUDE_CURRENT_PAGE' => 'Включать текущую страницу',
-                'ICON_HOME' => 'Иконка главной страницы',
-                'ICON_DIVIDER_CLASSES' => 'Класс иконки разделителя',
-                'LINK_TRAILING' => 'Трейлинг ссылки'
+                'BUILTIN_CSS_HELP' => 'Использовать CSS, предоставленный плагином Problems'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Ошибка',
-                'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.',
-                'ROUTE_404' => 'Маршрут 404'
+            'RECAPTCHACONTACT' => [
+                'FORM_LEGEND' => 'Контакты',
+                'SUBJECT' => 'Новый контакт от Grav!',
+                'RECIPIENT' => 'hello@example.com',
+                'ADMIN' => [
+                    'HEADING' => 'Контактная форма',
+                    'TOGGLE' => [
+                        'HELP' => 'Если активирована, то форма будет отображаться на данной странице.'
+                    ],
+                    'RECIPIENT' => [
+                        'LABEL' => 'Адрес получателя',
+                        'HELP' => 'Обязателен: форма будет посылать контактный адрес электронной почты по этому адресу'
+                    ],
+                    'SUBJECT' => [
+                        'LABEL' => 'Тема письма',
+                        'HELP' => 'Не обязательна: если введена, то email будет содержать данную тему.'
+                    ]
+                ],
+                'FIELDS' => [
+                    'NAME' => [
+                        'LABEL' => 'Имя',
+                        'PLACEHOLDER' => 'Укажите имя'
+                    ],
+                    'EMAIL' => [
+                        'LABEL' => 'Email',
+                        'PLACEHOLDER' => 'Укажите email'
+                    ],
+                    'MESSAGE' => [
+                        'LABEL' => 'Сообщение',
+                        'PLACEHOLDER' => 'Укажите сообщение'
+                    ],
+                    'ANTISPAM' => [
+                        'LABEL' => 'Антиспам',
+                        'PLACEHOLDER' => 'Пожалуйста, оставьте данное поле пустым для Антиспама'
+                    ],
+                    'SUBMIT' => [
+                        'LABEL' => 'Отправить'
+                    ]
+                ],
+                'MESSAGES' => [
+                    'SUCCESS' => 'Спасибо! Ваше сообщение было отправлено.',
+                    'ERROR' => 'Упс! Произошла ошибка при отправке вашего сообщения. Пожалуйста заполните форму и попробуйте снова.',
+                    'FAIL' => 'Упс! Что-то пошло не так и мы не можем отправить ваше сообщение.'
+                ]
             ],
             'PLUGIN_TNTSEARCH' => [
                 'FOUND_RESULTS' => 'Результатов: %s',
                 'FOUND_IN' => '(<span>%s</span>)',
                 'POWERED_BY' => 'Работает на %s'
-            ],
-            'PLUGIN_PROBLEMS' => [
-                'BUILTIN_CSS' => 'Использовать встроенный CSS',
-                'BUILTIN_CSS_HELP' => 'Использовать CSS, предоставленный плагином Problems'
             ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Форма не подтверждена. Отсутствует одно или несколько обязательных полей.',
@@ -9865,50 +10203,20 @@ Calea: `%2$s`
                 'TEST_EMAIL_BODY' => '<h1>Тестирование электронной почты</h1><p>Это тестовое письмо отправлено на основе следующей конфигурации:</p>  <p><pre>%1$s</pre></p>',
                 'EMAIL_FOOTER' => 'GetGrav.org'
             ],
-            'RECAPTCHACONTACT' => [
-                'FORM_LEGEND' => 'Контакты',
-                'SUBJECT' => 'Новый контакт от Grav!',
-                'RECIPIENT' => 'hello@example.com',
-                'ADMIN' => [
-                    'HEADING' => 'Контактная форма',
-                    'TOGGLE' => [
-                        'HELP' => 'Если активирована, то форма будет отображаться на данной странице.'
-                    ],
-                    'RECIPIENT' => [
-                        'LABEL' => 'Адрес получателя',
-                        'HELP' => 'Обязателен: форма будет посылать контактный адрес электронной почты по этому адресу'
-                    ],
-                    'SUBJECT' => [
-                        'LABEL' => 'Тема письма',
-                        'HELP' => 'Не обязательна: если введена, то email будет содержать данную тему.'
-                    ]
-                ],
-                'FIELDS' => [
-                    'NAME' => [
-                        'LABEL' => 'Имя',
-                        'PLACEHOLDER' => 'Укажите имя'
-                    ],
-                    'EMAIL' => [
-                        'LABEL' => 'Email',
-                        'PLACEHOLDER' => 'Укажите email'
-                    ],
-                    'MESSAGE' => [
-                        'LABEL' => 'Сообщение',
-                        'PLACEHOLDER' => 'Укажите сообщение'
-                    ],
-                    'ANTISPAM' => [
-                        'LABEL' => 'Антиспам',
-                        'PLACEHOLDER' => 'Пожалуйста, оставьте данное поле пустым для Антиспама'
-                    ],
-                    'SUBMIT' => [
-                        'LABEL' => 'Отправить'
-                    ]
-                ],
-                'MESSAGES' => [
-                    'SUCCESS' => 'Спасибо! Ваше сообщение было отправлено.',
-                    'ERROR' => 'Упс! Произошла ошибка при отправке вашего сообщения. Пожалуйста заполните форму и попробуйте снова.',
-                    'FAIL' => 'Упс! Что-то пошло не так и мы не можем отправить ваше сообщение.'
-                ]
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Ошибка',
+                'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.',
+                'ROUTE_404' => 'Маршрут 404'
+            ],
+            'PLUGIN_BREADCRUMBS' => [
+                'SHOW_WITH_ONE_ITEM' => 'Показывать даже с одним элементом',
+                'BUILTIN_CSS' => 'Использовать встроенный CSS',
+                'BUILTIN_CSS_HELP' => 'Включить CSS, предоставляемый плагином',
+                'INCLUDE_HOME' => 'Включить главную страницу',
+                'INCLUDE_CURRENT_PAGE' => 'Включать текущую страницу',
+                'ICON_HOME' => 'Иконка главной страницы',
+                'ICON_DIVIDER_CLASSES' => 'Класс иконки разделителя',
+                'LINK_TRAILING' => 'Трейлинг ссылки'
             ],
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---
@@ -10045,7 +10353,10 @@ title: %1$s
                 'BTN_LOGOUT' => 'Вийти',
                 'BTN_FORGOT' => 'Забув',
                 'BTN_REGISTER' => 'Реєстрація',
-                'BTN_RESET' => 'Скидання пароля',
+                'BTN_RESET_PASSWORD' => 'Скидання пароля',
+                'BTN_RESET' => 'Reset',
+                'BTN_SUBMIT' => 'Submit',
+                'BTN_SUBMIT_PROFILE' => 'Submit',
                 'BTN_SEND_INSTRUCTIONS' => 'Надіслати інструкції по скиданню',
                 'RESET_LINK_EXPIRED' => 'Час посилання для скидання минув, спробуйте ще раз',
                 'RESET_PASSWORD_RESET' => 'Пароль був скинутий',
@@ -10167,7 +10478,14 @@ title: %1$s
                 '2FA_REGENERATE' => 'Згенерувати повторно',
                 'BTN_CANCEL' => 'Скасування',
                 'MANUALLY_ENABLE' => 'Вручну включити',
-                'MANUALLY_ENABLE_HELP' => 'При використанні «активації по електронній пошті» і «повідомлення по електронній пошті» ви можете переконатися, що користувач може самостійно активуватися, але користувач вимагає ручного включення для входу в систему'
+                'MANUALLY_ENABLE_HELP' => 'При використанні «активації по електронній пошті» і «повідомлення по електронній пошті» ви можете переконатися, що користувач може самостійно активуватися, але користувач вимагає ручного включення для входу в систему',
+                'PROFILE_UPDATED' => 'Your profile has been updated',
+                'ENTER_EMAIL' => 'Enter your email',
+                'ENTER_NEW_PASSWORD' => 'Enter new password',
+                'ENTER_PASSWORD' => 'Enter a password',
+                'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+                'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+                'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.'
             ],
             'PLUGIN_ADMIN' => [
                 'ADMIN_BETA_MSG' => 'Це бета-реліз! Використовуйте його на продуктовому сервері на свій страх і ризик...',
@@ -10731,21 +11049,6 @@ title: %1$s
                 'LEVEL_CLASSES_HELP' => 'Ці класи використовуються на кожному рівні глибини повідомлень',
                 'LEVEL_CLASSES_PLACEHOLDER' => 'наприклад yellow, red, blue, green'
             ],
-            'PLUGIN_BREADCRUMBS' => [
-                'SHOW_WITH_ONE_ITEM' => 'Показувати навіть з одним елементом',
-                'BUILTIN_CSS' => 'Використовувати вбудований CSS',
-                'BUILTIN_CSS_HELP' => 'Включити CSS, що надається плагіном',
-                'INCLUDE_HOME' => 'Включити головну сторінку',
-                'INCLUDE_CURRENT_PAGE' => 'Включати активну сторінку',
-                'ICON_HOME' => 'Іконка головної сторінки',
-                'ICON_DIVIDER_CLASSES' => 'Клас іконки розділювача',
-                'LINK_TRAILING' => 'Трейлінг посилання'
-            ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Помилка',
-                'ERROR_MESSAGE' => 'Упс. Схоже, цієї сторінки не існує.',
-                'ROUTE_404' => 'Маршрут 404'
-            ],
             'PLUGIN_PROBLEMS' => [
                 'BUILTIN_CSS' => 'Використовувати вбудований CSS',
                 'BUILTIN_CSS_HELP' => 'Використовувати CSS, наданий плагіном Problems'
@@ -10815,6 +11118,21 @@ title: %1$s
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Будь ласка налаштуйте адресу відправника (\'from\') в налаштуваннях плагіна Email Plugin, або на формі',
                 'TEST_EMAIL_BODY' => '<h1>Тестування електронної пошти</h1><p>Це тестовий лист відправлено на основі такої конфігурації:</p>  <p><pre>%1$s</pre></p>',
                 'EMAIL_FOOTER' => 'GetGrav.org'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Помилка',
+                'ERROR_MESSAGE' => 'Упс. Схоже, цієї сторінки не існує.',
+                'ROUTE_404' => 'Маршрут 404'
+            ],
+            'PLUGIN_BREADCRUMBS' => [
+                'SHOW_WITH_ONE_ITEM' => 'Показувати навіть з одним елементом',
+                'BUILTIN_CSS' => 'Використовувати вбудований CSS',
+                'BUILTIN_CSS_HELP' => 'Включити CSS, що надається плагіном',
+                'INCLUDE_HOME' => 'Включити головну сторінку',
+                'INCLUDE_CURRENT_PAGE' => 'Включати активну сторінку',
+                'ICON_HOME' => 'Іконка головної сторінки',
+                'ICON_DIVIDER_CLASSES' => 'Клас іконки розділювача',
+                'LINK_TRAILING' => 'Трейлінг посилання'
             ],
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---
@@ -13862,10 +14180,6 @@ Máte na svém účtu aktivováno **dvoufaktorové ověřování**. Pro dokonče
                 'COMMAND' => 'Příkaz',
                 'EXTRA_ARGUMENTS' => 'Další argumenty'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Chyba',
-                'ERROR_MESSAGE' => 'A jéje. Vypadá to, že hledaná stránka tu není.'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formulář nebyl ověřen. Chybí jedno nebo více povinných polí.',
                 'NONCE_NOT_VALIDATED' => 'Jejda, došlo k problému, zkontrolujte vstupní stránku a znovu odešlete formulář.',
@@ -13902,6 +14216,10 @@ Máte na svém účtu aktivováno **dvoufaktorové ověřování**. Pro dokonče
                 'DROPZONE_RESPONSE_ERROR' => 'Server vrátil chybový kód: {{statusCode}}.',
                 1 => 'Ano',
                 '' => 'Ne'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Chyba',
+                'ERROR_MESSAGE' => 'A jéje. Vypadá to, že hledaná stránka tu není.'
             ],
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---
@@ -14901,10 +15219,6 @@ Du har **2FA** aktiveret for denne konto. Benyt venligst din **2FA**-app til at 
                 '2FA_REGENERATE' => 'Regenerér',
                 'FORCE_LOWERCASE_URLS' => 'Brug små bogstaver i URL\'er'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Fejl',
-                'ERROR_MESSAGE' => 'Ups. Det ser ud til at siden ikke eksisterer.'
-            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formular ikke valideret. Et eller flere påkrævede felter mangler.',
                 'NONCE_NOT_VALIDATED' => 'Ups der var et problem, tjek venligst dit input og send formularen igen.',
@@ -14966,6 +15280,10 @@ Du har **2FA** aktiveret for denne konto. Benyt venligst din **2FA**-app til at 
             'PLUGIN_EMAIL' => [
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Konfigurere venligst en \'til\' email adresse i Email Plugin indstillingerne eller her i formularen',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Konfigurere venligst en \'fra\' email adresse i Email Plugin indstillingerne eller her i formularen'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Fejl',
+                'ERROR_MESSAGE' => 'Ups. Det ser ud til at siden ikke eksisterer.'
             ],
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---
@@ -20274,51 +20592,6 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
                 'ROUTE_CANONICAL' => 'Route canonica',
                 'ROUTE_ALIASES' => 'Alias della route'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Errore',
-                'ERROR_MESSAGE' => 'Ooops. A quanto pare, questa pagina non esiste.'
-            ],
-            'PLUGIN_FORM' => [
-                'NOT_VALIDATED' => 'Il Form risulta invalido. Uno o più campi risultano omessi.',
-                'NONCE_NOT_VALIDATED' => 'Oops è stato riscontrato un errore, si prega di ricontrollare i dati inseriti e provare di nuovo.',
-                'FILES' => 'Invio dei Files',
-                'ALLOW_MULTIPLE' => 'Consenti più di un file',
-                'ALLOW_MULTIPLE_HELP' => 'Permette la selezione di più di un file per l\'upload',
-                'DESTINATION' => 'Destinazione',
-                'DESTINATION_HELP' => 'La destinazione dove i files vengono uploadati',
-                'ACCEPT' => 'Tipi di MIME Concessi',
-                'ACCEPT_HELP' => 'Una lista di tipi di MIME che sono permessi per l\'upload',
-                'ERROR_VALIDATING_CAPTCHA' => 'Errore durante la validazione del Captcha',
-                'DATA_SUMMARY' => 'Ecco il riassunto di ciò che ci hai scritto:',
-                'NO_FORM_DATA' => 'Nessuna informazione disponibile',
-                'RECAPTCHA' => 'ReCaptcha',
-                'RECAPTCHA_SITE_KEY' => 'Site key',
-                'RECAPTCHA_SITE_KEY_HELP' => 'Per maggiori informazioni visita https://developers.google.com/recaptcha',
-                'RECAPTCHA_SECRET_KEY' => 'Chiave segreta',
-                'RECAPTCHA_SECRET_KEY_HELP' => 'Per maggiori informazioni visita https://developers.google.com/recaptcha',
-                'GENERAL' => 'Generale',
-                'USE_BUILT_IN_CSS' => 'Usa CSS incorporato',
-                'FILEUPLOAD_PREVENT_SELF' => 'Non si può usare "%s" fuori dalle pagine.',
-                'FILEUPLOAD_UNABLE_TO_UPLOAD' => 'Impossibile caricare il file %s: %s',
-                'FILEUPLOAD_UNABLE_TO_MOVE' => 'Impossibile muovere il file %s to "%s"',
-                'DROPZONE_CANCEL_UPLOAD' => 'Trasferimento annullato',
-                'DROPZONE_CANCEL_UPLOAD_CONFIRMATION' => 'Sei sicuro di voler cancellare questo trasferimento?',
-                'DROPZONE_DEFAULT_MESSAGE' => 'Trascina qui i tuoi file o <strong>clicca su quest\'area</strong>',
-                'DROPZONE_FALLBACK_MESSAGE' => 'Il tuo browser non supporta il trascinamento dei file per il trasferimento.',
-                'DROPZONE_FALLBACK_TEXT' => 'Utilizza il modulo di riserva qui sotto per caricare i tuoi file come ai vecchi tempi.',
-                'DROPZONE_FILE_TOO_BIG' => 'Il file è troppo grande ({{filesize}}MiB). Dimensione massima consentita: {{maxFilesize}}MiB.',
-                'DROPZONE_INVALID_FILE_TYPE' => 'Non puoi caricare questo tipo di file',
-                'DROPZONE_MAX_FILES_EXCEEDED' => 'Non puoi caricare ulteriori file, hai raggiunto il limite consentito.',
-                'DROPZONE_REMOVE_FILE' => 'Rimuovi il file',
-                'DROPZONE_REMOVE_FILE_CONFIRMATION' => 'Sei sicuro di voler eliminare questo file??',
-                'DROPZONE_RESPONSE_ERROR' => 'Il Server ha risposto con il codice {{statusCode}}.',
-                1 => 'Si',
-                '' => 'No'
-            ],
-            'PLUGIN_EMAIL' => [
-                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
-                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Per favore, configura l\'indirizzo di provenienza (\'from\') nella configurazione del Plugin Email, oppure direttamente nella form'
-            ],
             'RECAPTCHACONTACT' => [
                 'FORM_LEGEND' => 'Contattami',
                 'SUBJECT' => 'Nuovo contatto dal sito Grav!',
@@ -20363,6 +20636,51 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
                     'ERROR' => 'Oh! C\'è stato un problema durante l\'invio. Si prega di compilare il modulo e riprovare.',
                     'FAIL' => 'Oh! Qualcosa non ha funzionato perciò il tuo messaggio non potrà essere inviato.'
                 ]
+            ],
+            'PLUGIN_FORM' => [
+                'NOT_VALIDATED' => 'Il Form risulta invalido. Uno o più campi risultano omessi.',
+                'NONCE_NOT_VALIDATED' => 'Oops è stato riscontrato un errore, si prega di ricontrollare i dati inseriti e provare di nuovo.',
+                'FILES' => 'Invio dei Files',
+                'ALLOW_MULTIPLE' => 'Consenti più di un file',
+                'ALLOW_MULTIPLE_HELP' => 'Permette la selezione di più di un file per l\'upload',
+                'DESTINATION' => 'Destinazione',
+                'DESTINATION_HELP' => 'La destinazione dove i files vengono uploadati',
+                'ACCEPT' => 'Tipi di MIME Concessi',
+                'ACCEPT_HELP' => 'Una lista di tipi di MIME che sono permessi per l\'upload',
+                'ERROR_VALIDATING_CAPTCHA' => 'Errore durante la validazione del Captcha',
+                'DATA_SUMMARY' => 'Ecco il riassunto di ciò che ci hai scritto:',
+                'NO_FORM_DATA' => 'Nessuna informazione disponibile',
+                'RECAPTCHA' => 'ReCaptcha',
+                'RECAPTCHA_SITE_KEY' => 'Site key',
+                'RECAPTCHA_SITE_KEY_HELP' => 'Per maggiori informazioni visita https://developers.google.com/recaptcha',
+                'RECAPTCHA_SECRET_KEY' => 'Chiave segreta',
+                'RECAPTCHA_SECRET_KEY_HELP' => 'Per maggiori informazioni visita https://developers.google.com/recaptcha',
+                'GENERAL' => 'Generale',
+                'USE_BUILT_IN_CSS' => 'Usa CSS incorporato',
+                'FILEUPLOAD_PREVENT_SELF' => 'Non si può usare "%s" fuori dalle pagine.',
+                'FILEUPLOAD_UNABLE_TO_UPLOAD' => 'Impossibile caricare il file %s: %s',
+                'FILEUPLOAD_UNABLE_TO_MOVE' => 'Impossibile muovere il file %s to "%s"',
+                'DROPZONE_CANCEL_UPLOAD' => 'Trasferimento annullato',
+                'DROPZONE_CANCEL_UPLOAD_CONFIRMATION' => 'Sei sicuro di voler cancellare questo trasferimento?',
+                'DROPZONE_DEFAULT_MESSAGE' => 'Trascina qui i tuoi file o <strong>clicca su quest\'area</strong>',
+                'DROPZONE_FALLBACK_MESSAGE' => 'Il tuo browser non supporta il trascinamento dei file per il trasferimento.',
+                'DROPZONE_FALLBACK_TEXT' => 'Utilizza il modulo di riserva qui sotto per caricare i tuoi file come ai vecchi tempi.',
+                'DROPZONE_FILE_TOO_BIG' => 'Il file è troppo grande ({{filesize}}MiB). Dimensione massima consentita: {{maxFilesize}}MiB.',
+                'DROPZONE_INVALID_FILE_TYPE' => 'Non puoi caricare questo tipo di file',
+                'DROPZONE_MAX_FILES_EXCEEDED' => 'Non puoi caricare ulteriori file, hai raggiunto il limite consentito.',
+                'DROPZONE_REMOVE_FILE' => 'Rimuovi il file',
+                'DROPZONE_REMOVE_FILE_CONFIRMATION' => 'Sei sicuro di voler eliminare questo file??',
+                'DROPZONE_RESPONSE_ERROR' => 'Il Server ha risposto con il codice {{statusCode}}.',
+                1 => 'Si',
+                '' => 'No'
+            ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Per favore, configura l\'indirizzo di provenienza (\'from\') nella configurazione del Plugin Email, oppure direttamente nella form'
+            ],
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Errore',
+                'ERROR_MESSAGE' => 'Ooops. A quanto pare, questa pagina non esiste.'
             ],
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---Titolo: %1$s---# Errore: Frontmatter non valido: \'%2$s\' * *%3$s * * \' \'%4$s \' \'',
@@ -23485,9 +23803,50 @@ Masz na tym koncie włączone **2FA**. Użyj aplikacji od **2FA** i wprowadź ak
                 'VIEW_SITE_TIP' => 'Wyświetl stronę',
                 'TOOLS_DIRECT_INSTALL_UPLOAD_BUTTON' => 'Prześlij i zainstaluj'
             ],
-            'PLUGIN_ERROR' => [
-                'ERROR' => 'Błąd',
-                'ERROR_MESSAGE' => 'Ups. Wygląda na to, że ta strona nie istnieje.'
+            'RECAPTCHACONTACT' => [
+                'FORM_LEGEND' => 'Kontakt',
+                'SUBJECT' => 'Nowy kontakt ze strony Grav!',
+                'RECIPIENT' => 'hello@example.com',
+                'ADMIN' => [
+                    'HEADING' => 'Formularz kontaktowy',
+                    'TOGGLE' => [
+                        'HELP' => 'Jeśli zaznaczysz tę opcję, formularz pojawi się na tej stronie.'
+                    ],
+                    'RECIPIENT' => [
+                        'LABEL' => 'Wyślij emaile na adres:',
+                        'HELP' => 'Pomoc: formularz będzie wysyłał wiadomości na ten adres email.'
+                    ],
+                    'SUBJECT' => [
+                        'LABEL' => 'Temat wiadomości',
+                        'HELP' => 'Opcjonalne: jeśli zdefiniujesz to pole, email będzie zawierał ten temat.'
+                    ]
+                ],
+                'FIELDS' => [
+                    'NAME' => [
+                        'LABEL' => 'Imię',
+                        'PLACEHOLDER' => 'Podaj swoje imię'
+                    ],
+                    'EMAIL' => [
+                        'LABEL' => 'Email',
+                        'PLACEHOLDER' => 'Podaj swój email'
+                    ],
+                    'MESSAGE' => [
+                        'LABEL' => 'Wiadomość',
+                        'PLACEHOLDER' => 'Treść wiadomości'
+                    ],
+                    'ANTISPAM' => [
+                        'LABEL' => 'Zabezpieczenie antyspamowe',
+                        'PLACEHOLDER' => 'Pozostaw to pole puste'
+                    ],
+                    'SUBMIT' => [
+                        'LABEL' => 'Wyślij.'
+                    ]
+                ],
+                'MESSAGES' => [
+                    'SUCCESS' => 'Dziękuję! Twoja wiadomość została wysłana.',
+                    'ERROR' => 'Ups! Nie wszystkie pola zostały wypełnione prawidłowo. Proszę, uzupełnij formularz zgodnie ze wskazówkami i wyślij go ponownie.',
+                    'FAIL' => 'Ups! Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie poźniej.'
+                ]
             ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formularz został odrzucony. Jedno lub więcej pól wymaga wypełnienia.',
@@ -23547,50 +23906,9 @@ Masz na tym koncie włączone **2FA**. Użyj aplikacji od **2FA** i wprowadź ak
                 'INVALID_MIME_TYPE' => 'Typ MIME %s dla pliku %s nie jest dozwolony.',
                 'INVALID_FILE_EXTENSION' => 'Rozszerzenie pliku %s nie jest dozwolone.'
             ],
-            'RECAPTCHACONTACT' => [
-                'FORM_LEGEND' => 'Kontakt',
-                'SUBJECT' => 'Nowy kontakt ze strony Grav!',
-                'RECIPIENT' => 'hello@example.com',
-                'ADMIN' => [
-                    'HEADING' => 'Formularz kontaktowy',
-                    'TOGGLE' => [
-                        'HELP' => 'Jeśli zaznaczysz tę opcję, formularz pojawi się na tej stronie.'
-                    ],
-                    'RECIPIENT' => [
-                        'LABEL' => 'Wyślij emaile na adres:',
-                        'HELP' => 'Pomoc: formularz będzie wysyłał wiadomości na ten adres email.'
-                    ],
-                    'SUBJECT' => [
-                        'LABEL' => 'Temat wiadomości',
-                        'HELP' => 'Opcjonalne: jeśli zdefiniujesz to pole, email będzie zawierał ten temat.'
-                    ]
-                ],
-                'FIELDS' => [
-                    'NAME' => [
-                        'LABEL' => 'Imię',
-                        'PLACEHOLDER' => 'Podaj swoje imię'
-                    ],
-                    'EMAIL' => [
-                        'LABEL' => 'Email',
-                        'PLACEHOLDER' => 'Podaj swój email'
-                    ],
-                    'MESSAGE' => [
-                        'LABEL' => 'Wiadomość',
-                        'PLACEHOLDER' => 'Treść wiadomości'
-                    ],
-                    'ANTISPAM' => [
-                        'LABEL' => 'Zabezpieczenie antyspamowe',
-                        'PLACEHOLDER' => 'Pozostaw to pole puste'
-                    ],
-                    'SUBMIT' => [
-                        'LABEL' => 'Wyślij.'
-                    ]
-                ],
-                'MESSAGES' => [
-                    'SUCCESS' => 'Dziękuję! Twoja wiadomość została wysłana.',
-                    'ERROR' => 'Ups! Nie wszystkie pola zostały wypełnione prawidłowo. Proszę, uzupełnij formularz zgodnie ze wskazówkami i wyślij go ponownie.',
-                    'FAIL' => 'Ups! Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie poźniej.'
-                ]
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Błąd',
+                'ERROR_MESSAGE' => 'Ups. Wygląda na to, że ta strona nie istnieje.'
             ],
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---

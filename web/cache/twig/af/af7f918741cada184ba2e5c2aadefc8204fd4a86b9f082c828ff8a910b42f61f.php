@@ -32,7 +32,7 @@ class __TwigTemplate_79bc3ae2f62d4fefc9f94ad69e8672e71a77ce431f0bd623df0252e09e3
         // line 2
         echo ($context["grid_size"] ?? null);
         echo "\">
-        <p>Creado usando <a href=\"http://getgrav.org\">Grav</a> con <i class=\"fa fa-heart-o pulse \"></i> por <a href=\"http://alberto.ws\">Alberto Fernandez</a>.</p>
+        <p>Creado usando <a href=\"http://getgrav.org\">Grav</a> con <i class=\"fa fa-heart-o pulse \"></i> por Alberto Fernandez.</p>
     </section>
 </section>
 ";
@@ -65,7 +65,7 @@ class __TwigTemplate_79bc3ae2f62d4fefc9f94ad69e8672e71a77ce431f0bd623df0252e09e3
     {
         return new Source("<section id=\"footer\" class=\"section\">
     <section class=\"container {{ grid_size }}\">
-        <p>Creado usando <a href=\"http://getgrav.org\">Grav</a> con <i class=\"fa fa-heart-o pulse \"></i> por <a href=\"http://alberto.ws\">Alberto Fernandez</a>.</p>
+        <p>Creado usando <a href=\"http://getgrav.org\">Grav</a> con <i class=\"fa fa-heart-o pulse \"></i> por Alberto Fernandez.</p>
     </section>
 </section>
 ", "partials/footer.html.twig", "/var/www/html/user/themes/learn4/templates/partials/footer.html.twig");

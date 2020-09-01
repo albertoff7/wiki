@@ -2,11 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/themes/learn4/languages.yaml',
-    'modified' => 1589553213,
+    'modified' => 1595797246,
     'data' => [
         'en' => [
             'THEME_LEARN4_GITHUB_EDIT' => 'Edit',
-            'THEME_LEARN4_GITHUB_NOTE' => 'Encontraste errores? Puedes mejorar la documentacion? Contacta: alberto@alberto.ws',
+            'THEME_LEARN4_GITHUB_NOTE' => 'Encontraste errores? Puedes mejorar la documentacion? Contacta: albertof417@gmail.com',
             'THEME_LEARN4_CLEAR_HISTORY' => 'Limpiar historial',
             'THEME_LEARN4_BUILT_WITH_GRAV' => 'Built with <a href="http://getgrav.org">Grav</a> - The Modern Flat File CMS',
             'THEME_LEARN4_SEARCH_DOCUMENTATION' => ':)...'

@@ -2,12 +2,12 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/error/languages.yaml',
-    'modified' => 1589120159,
+    'modified' => 1593685849,
     'data' => [
         'en' => [
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Error',
-                'ERROR_MESSAGE' => 'Woops! La pagina no existe... prueba de nuevo desde el indice.',
+                'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.',
                 'ROUTE_404' => '404 Route'
             ]
         ],

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/breadcrumbs/languages.yaml',
-    'modified' => 1589055283,
+    'modified' => 1595792629,
     'data' => [
         'en' => [
             'PLUGIN_BREADCRUMBS' => [

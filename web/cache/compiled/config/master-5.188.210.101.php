@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1590081213,
-    'checksum' => '9bd562999a3b54b693fe19445c94c912',
+    'timestamp' => 1593749678,
+    'checksum' => '2494734426680a4f4041eb4db9830c24',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -29,9 +29,13 @@ return [
                 'file' => 'user/config/plugins/file-browser.yaml',
                 'modified' => 1589554227
             ],
+            'plugins/ganalytics' => [
+                'file' => 'user/config/plugins/ganalytics.yaml',
+                'modified' => 1591769951
+            ],
             'plugins/highlight' => [
                 'file' => 'user/config/plugins/highlight.yaml',
-                'modified' => 1589143121
+                'modified' => 1590499266
             ],
             'plugins/page-toc' => [
                 'file' => 'user/config/plugins/page-toc.yaml',
@@ -39,7 +43,7 @@ return [
             ],
             'plugins/prism-highlight' => [
                 'file' => 'user/config/plugins/prism-highlight.yaml',
-                'modified' => 1589143489
+                'modified' => 1590499271
             ],
             'plugins/recaptchacontact' => [
                 'file' => 'user/config/plugins/recaptchacontact.yaml',
@@ -47,11 +51,11 @@ return [
             ],
             'plugins/shortcode-core' => [
                 'file' => 'user/config/plugins/shortcode-core.yaml',
-                'modified' => 1589126167
+                'modified' => 1590497416
             ],
             'plugins/shortcode-ui' => [
                 'file' => 'user/config/plugins/shortcode-ui.yaml',
-                'modified' => 1589125751
+                'modified' => 1590497424
             ],
             'plugins/tntsearch' => [
                 'file' => 'user/config/plugins/tntsearch.yaml',
@@ -75,33 +79,33 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1589714904
+                'modified' => 1593159096
             ]
         ],
         'system/config' => [
             'backups' => [
                 'file' => 'system/config/backups.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1589533852
+                'modified' => 1591680872
             ]
         ],
         'user/plugins' => [
@@ -112,22 +116,6 @@ return [
             'plugins/breadcrumbs' => [
                 'file' => 'user/plugins/breadcrumbs/breadcrumbs.yaml',
                 'modified' => 1589055283
-            ],
-            'plugins/admin' => [
-                'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1589040441
-            ],
-            'plugins/login' => [
-                'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1589040437
-            ],
-            'plugins/error' => [
-                'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1588290210
-            ],
-            'plugins/tntsearch' => [
-                'file' => 'user/plugins/tntsearch/tntsearch.yaml',
-                'modified' => 1589040480
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
@@ -161,14 +149,6 @@ return [
                 'file' => 'user/plugins/filesource/filesource.yaml',
                 'modified' => 1589285482
             ],
-            'plugins/form' => [
-                'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1589534673
-            ],
-            'plugins/email' => [
-                'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1589534888
-            ],
             'plugins/recaptchacontact' => [
                 'file' => 'user/plugins/recaptchacontact/recaptchacontact.yaml',
                 'modified' => 1589541638
@@ -176,6 +156,34 @@ return [
             'plugins/file-browser' => [
                 'file' => 'user/plugins/file-browser/file-browser.yaml',
                 'modified' => 1589554167
+            ],
+            'plugins/admin' => [
+                'file' => 'user/plugins/admin/admin.yaml',
+                'modified' => 1591680905
+            ],
+            'plugins/tntsearch' => [
+                'file' => 'user/plugins/tntsearch/tntsearch.yaml',
+                'modified' => 1591680908
+            ],
+            'plugins/form' => [
+                'file' => 'user/plugins/form/form.yaml',
+                'modified' => 1591680910
+            ],
+            'plugins/email' => [
+                'file' => 'user/plugins/email/email.yaml',
+                'modified' => 1591680913
+            ],
+            'plugins/ganalytics' => [
+                'file' => 'user/plugins/ganalytics/ganalytics.yaml',
+                'modified' => 1591769545
+            ],
+            'plugins/login' => [
+                'file' => 'user/plugins/login/login.yaml',
+                'modified' => 1591993148
+            ],
+            'plugins/error' => [
+                'file' => 'user/plugins/error/error.yaml',
+                'modified' => 1593685849
             ]
         ]
     ],
@@ -201,6 +209,105 @@ return [
                 'icon_home' => '',
                 'icon_divider_classes' => 'fa fa-angle-right',
                 'link_trailing' => false
+            ],
+            'problems' => [
+                'enabled' => true,
+                'built_in_css' => true
+            ],
+            'prism-highlight' => [
+                'enabled' => true,
+                'theme' => 'prism-base16-colors.dark.css',
+                'all-pre-blocks' => false,
+                'plugins' => [
+                    'line-numbers' => true,
+                    'command-line' => false,
+                    'command-line-prompt' => '$'
+                ]
+            ],
+            'page-toc' => [
+                'enabled' => true,
+                'active' => true,
+                'start' => '1',
+                'depth' => '4'
+            ],
+            'highlight' => [
+                'enabled' => false,
+                'theme' => 'learn',
+                'lines' => true
+            ],
+            'anchors' => [
+                'enabled' => true,
+                'active' => true,
+                'selectors' => 'h2,h3,h4',
+                'placement' => 'right',
+                'visible' => 'hover',
+                'icon' => NULL,
+                'class' => NULL,
+                'truncate' => 64
+            ],
+            'shortcode-core' => [
+                'enabled' => false,
+                'active' => true,
+                'active_admin' => true,
+                'admin_pages_only' => true,
+                'parser' => 'regular',
+                'include_default_shortcodes' => true,
+                'custom_shortcodes' => NULL,
+                'fontawesome' => [
+                    'load' => false,
+                    'url' => '//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css',
+                    'v5' => false
+                ]
+            ],
+            'shortcode-ui' => [
+                'enabled' => false,
+                'theme' => [
+                    'tabs' => 'default'
+                ]
+            ],
+            'filesource' => [
+                'enabled' => true
+            ],
+            'recaptchacontact' => [
+                'enabled' => true,
+                'default_lang' => 'en',
+                'disable_css' => true,
+                'inject_template' => true,
+                'grecaptcha_sitekey' => '6LdwrvcUAAAAAHnXAf7BkE7CJ9djCcy84fMEsECp',
+                'grecaptcha_secret' => '6LdwrvcUAAAAAK1Y4ARR6pIwtJDXlKaDUkoaRkBW',
+                'grecaptcha_callback' => false
+            ],
+            'file-browser' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'load_font_awesome' => true,
+                'fa4_compatability' => true,
+                'source' => 'user://files',
+                'show_hidden_files' => false,
+                'default_view' => 'tile',
+                'base_to_extend' => 'partials/base.html.twig',
+                'use_alt_arrows' => false,
+                'icon_weight' => 'fas',
+                'sort_show' => true,
+                'sort_reverse' => false,
+                'file_icon_default' => 'fa-file-alt',
+                'show_thumbnails' => true,
+                'thumbnail_types' => 'png, jpg, jpeg, gif, bmp, svg',
+                'file_icons_specific' => true,
+                'colourise_icons' => true,
+                'file_icon_types' => [
+                    'fa-file-word' => 'doc, docx, odt, rtf',
+                    'fa-file-csv' => 'csv',
+                    'fa-file-excel' => 'xls, xlsx, ods',
+                    'fa-file-powerpoint' => 'ppt, pps, pptx, ppsx, odp',
+                    'fa-file-archive' => 'zip',
+                    'fa-file-video' => 'mp4, mov',
+                    'fa-file-audio' => 'mp3, ogg, wav',
+                    'fa-file-image' => 'png, jpg, jpeg, gif, bmp, svg',
+                    'fa-file-pdf' => 'pdf'
+                ],
+                'sort_icon_asc' => NULL,
+                'sort_icon_desc' => NULL
             ],
             'admin' => [
                 'enabled' => true,
@@ -267,73 +374,6 @@ return [
                     ]
                 ]
             ],
-            'login' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'redirect_to_login' => false,
-                'redirect_after_login' => true,
-                'redirect_after_logout' => true,
-                'route' => '/login',
-                'route_after_login' => NULL,
-                'route_after_logout' => '/',
-                'route_activate' => '/activate_user',
-                'route_forgot' => '/forgot_password',
-                'route_reset' => '/reset_password',
-                'route_profile' => '/user_profile',
-                'route_register' => '/user_register',
-                'route_unauthorized' => '/user_unauthorized',
-                'twofa_enabled' => false,
-                'dynamic_page_visibility' => false,
-                'parent_acl' => false,
-                'protect_protected_page_media' => false,
-                'rememberme' => [
-                    'enabled' => true,
-                    'timeout' => 604800,
-                    'name' => 'grav-rememberme'
-                ],
-                'max_pw_resets_count' => 2,
-                'max_pw_resets_interval' => 60,
-                'max_login_count' => 5,
-                'max_login_interval' => 10,
-                'ipv6_subnet_size' => 64,
-                'user_registration' => [
-                    'enabled' => false,
-                    'fields' => [
-                        0 => 'username',
-                        1 => 'password',
-                        2 => 'email',
-                        3 => 'fullname',
-                        4 => 'title',
-                        5 => 'level',
-                        6 => 'twofa_enabled'
-                    ],
-                    'default_values' => [
-                        'level' => 'Newbie'
-                    ],
-                    'access' => [
-                        'site' => [
-                            'login' => 'true'
-                        ]
-                    ],
-                    'redirect_after_registration' => '',
-                    'redirect_after_activation' => '',
-                    'options' => [
-                        'validate_password1_and_password2' => true,
-                        'set_user_disabled' => false,
-                        'login_after_registration' => false,
-                        'send_activation_email' => false,
-                        'manually_enable' => false,
-                        'send_notification_email' => false,
-                        'send_welcome_email' => false
-                    ]
-                ]
-            ],
-            'error' => [
-                'enabled' => true,
-                'routes' => [
-                    404 => '/error'
-                ]
-            ],
             'tntsearch' => [
                 'enabled' => true,
                 'search_route' => '/search',
@@ -366,64 +406,6 @@ return [
                 ],
                 'powered_by' => false,
                 'search_object_type' => 'Grav'
-            ],
-            'problems' => [
-                'enabled' => true,
-                'built_in_css' => true
-            ],
-            'prism-highlight' => [
-                'enabled' => true,
-                'theme' => 'prism-base16-tomorrow.dark.css',
-                'all-pre-blocks' => false,
-                'plugins' => [
-                    'line-numbers' => true,
-                    'command-line' => false,
-                    'command-line-prompt' => '$'
-                ]
-            ],
-            'page-toc' => [
-                'enabled' => true,
-                'active' => true,
-                'start' => '1',
-                'depth' => '4'
-            ],
-            'highlight' => [
-                'enabled' => false,
-                'theme' => 'learn',
-                'lines' => true
-            ],
-            'anchors' => [
-                'enabled' => true,
-                'active' => true,
-                'selectors' => 'h2,h3,h4',
-                'placement' => 'right',
-                'visible' => 'hover',
-                'icon' => NULL,
-                'class' => NULL,
-                'truncate' => 64
-            ],
-            'shortcode-core' => [
-                'enabled' => true,
-                'active' => true,
-                'active_admin' => true,
-                'admin_pages_only' => true,
-                'parser' => 'regular',
-                'include_default_shortcodes' => true,
-                'custom_shortcodes' => NULL,
-                'fontawesome' => [
-                    'load' => false,
-                    'url' => '//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css',
-                    'v5' => false
-                ]
-            ],
-            'shortcode-ui' => [
-                'enabled' => true,
-                'theme' => [
-                    'tabs' => 'default'
-                ]
-            ],
-            'filesource' => [
-                'enabled' => true
             ],
             'form' => [
                 'enabled' => true,
@@ -485,46 +467,97 @@ return [
                 'reply_to_name' => NULL,
                 'body' => NULL
             ],
-            'recaptchacontact' => [
+            'ganalytics' => [
                 'enabled' => true,
-                'default_lang' => 'en',
-                'disable_css' => true,
-                'inject_template' => true,
-                'grecaptcha_sitekey' => '6LdwrvcUAAAAAHnXAf7BkE7CJ9djCcy84fMEsECp',
-                'grecaptcha_secret' => '6LdwrvcUAAAAAK1Y4ARR6pIwtJDXlKaDUkoaRkBW',
-                'grecaptcha_callback' => false
+                'trackingId' => 'UA-169029415-1',
+                'position' => 'head',
+                'objectName' => 'ga',
+                'forceSsl' => true,
+                'async' => false,
+                'anonymizeIp' => true,
+                'blockedIps' => NULL,
+                'blockedIpRanges' => [
+                    0 => 'private',
+                    1 => 'loopback',
+                    2 => 'link-local'
+                ],
+                'blockingCookie' => 'blockGA',
+                'cookieConfig' => false,
+                'cookieName' => '_ga',
+                'cookieDomain' => NULL,
+                'cookieExpires' => 63072000,
+                'optOutEnabled' => false,
+                'optOutMessage' => NULL,
+                'debugStatus' => false,
+                'debugTrace' => false
             ],
-            'file-browser' => [
+            'login' => [
                 'enabled' => true,
                 'built_in_css' => true,
-                'load_font_awesome' => true,
-                'fa4_compatability' => true,
-                'source' => 'user://files',
-                'show_hidden_files' => false,
-                'default_view' => 'tile',
-                'base_to_extend' => 'partials/base.html.twig',
-                'use_alt_arrows' => false,
-                'icon_weight' => 'fas',
-                'sort_show' => true,
-                'sort_reverse' => false,
-                'file_icon_default' => 'fa-file-alt',
-                'show_thumbnails' => true,
-                'thumbnail_types' => 'png, jpg, jpeg, gif, bmp, svg',
-                'file_icons_specific' => true,
-                'colourise_icons' => true,
-                'file_icon_types' => [
-                    'fa-file-word' => 'doc, docx, odt, rtf',
-                    'fa-file-csv' => 'csv',
-                    'fa-file-excel' => 'xls, xlsx, ods',
-                    'fa-file-powerpoint' => 'ppt, pps, pptx, ppsx, odp',
-                    'fa-file-archive' => 'zip',
-                    'fa-file-video' => 'mp4, mov',
-                    'fa-file-audio' => 'mp3, ogg, wav',
-                    'fa-file-image' => 'png, jpg, jpeg, gif, bmp, svg',
-                    'fa-file-pdf' => 'pdf'
+                'redirect_to_login' => false,
+                'redirect_after_login' => false,
+                'redirect_after_logout' => true,
+                'session_user_sync' => false,
+                'route' => '/login',
+                'route_after_login' => '/',
+                'route_after_logout' => '/',
+                'route_activate' => '/activate_user',
+                'route_forgot' => '/forgot_password',
+                'route_reset' => '/reset_password',
+                'route_profile' => '/user_profile',
+                'route_register' => '/user_register',
+                'route_unauthorized' => '/user_unauthorized',
+                'twofa_enabled' => false,
+                'dynamic_page_visibility' => false,
+                'parent_acl' => false,
+                'protect_protected_page_media' => false,
+                'rememberme' => [
+                    'enabled' => true,
+                    'timeout' => 604800,
+                    'name' => 'grav-rememberme'
                 ],
-                'sort_icon_asc' => NULL,
-                'sort_icon_desc' => NULL
+                'max_pw_resets_count' => 2,
+                'max_pw_resets_interval' => 60,
+                'max_login_count' => 5,
+                'max_login_interval' => 10,
+                'ipv6_subnet_size' => 64,
+                'user_registration' => [
+                    'enabled' => false,
+                    'fields' => [
+                        0 => 'username',
+                        1 => 'password',
+                        2 => 'email',
+                        3 => 'fullname',
+                        4 => 'title',
+                        5 => 'level',
+                        6 => 'twofa_enabled'
+                    ],
+                    'default_values' => [
+                        'level' => 'Newbie'
+                    ],
+                    'access' => [
+                        'site' => [
+                            'login' => 'true'
+                        ]
+                    ],
+                    'redirect_after_registration' => '',
+                    'redirect_after_activation' => '',
+                    'options' => [
+                        'validate_password1_and_password2' => true,
+                        'set_user_disabled' => false,
+                        'login_after_registration' => false,
+                        'send_activation_email' => false,
+                        'manually_enable' => false,
+                        'send_notification_email' => false,
+                        'send_welcome_email' => false
+                    ]
+                ]
+            ],
+            'error' => [
+                'enabled' => true,
+                'routes' => [
+                    404 => '/error'
+                ]
             ],
             'backtotop' => [
                 'enabled' => true,
@@ -989,6 +1022,13 @@ node_modules'
                     'special_chars' => [
                         '>' => 'gt',
                         '<' => 'lt'
+                    ],
+                    'valid_link_attributes' => [
+                        0 => 'rel',
+                        1 => 'target',
+                        2 => 'id',
+                        3 => 'class',
+                        4 => 'classes'
                     ]
                 ],
                 'types' => [

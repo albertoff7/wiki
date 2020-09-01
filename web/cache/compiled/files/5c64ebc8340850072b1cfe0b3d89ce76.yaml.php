@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/login/languages/de.yaml',
-    'modified' => 1589040437,
+    'modified' => 1591993148,
     'data' => [
         'PLUGIN_LOGIN' => [
             'USERNAME' => 'Benutzername',
@@ -16,7 +16,10 @@ return [
             'BTN_LOGOUT' => 'Abmelden',
             'BTN_FORGOT' => 'Vergessen',
             'BTN_REGISTER' => 'Registrieren',
-            'BTN_RESET' => 'Passwort zurücksetzen',
+            'BTN_RESET_PASSWORD' => 'Passwort zurücksetzen',
+            'BTN_RESET' => 'Reset',
+            'BTN_SUBMIT' => 'Submit',
+            'BTN_SUBMIT_PROFILE' => 'Submit',
             'BTN_SEND_INSTRUCTIONS' => 'Sende Anweisungen zum Zurücksetzen',
             'RESET_LINK_EXPIRED' => 'Der Link zum Zurücksetzen ist abgelaufen. Bitte erneut versuchen.',
             'RESET_PASSWORD_RESET' => 'Das Passwort wurde zurückgesetzt',
@@ -132,7 +135,14 @@ return [
             '2FA_SECRET' => '2FA Secret',
             '2FA_SECRET_HELP' => 'Scannen Sie diesen QR-Code in Ihre [Authenticator App](https://learn.getgrav.org/admin-panel/2fa#apps). Es ist sinnvoll, das Secret an einem sicheren Ort zu sichern, falls Sie Ihre App neu installieren müssen. In der [Grav Doku](https://learn.getgrav.org/admin-panel/2fa) finden Sie weitere Informationen.',
             '2FA_REGENERATE' => 'Neu generieren',
-            'BTN_CANCEL' => 'Abbrechen'
+            'BTN_CANCEL' => 'Abbrechen',
+            'PROFILE_UPDATED' => 'Your profile has been updated',
+            'ENTER_EMAIL' => 'Enter your email',
+            'ENTER_NEW_PASSWORD' => 'Enter new password',
+            'ENTER_PASSWORD' => 'Enter a password',
+            'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+            'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+            'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.'
         ]
     ]
 ];

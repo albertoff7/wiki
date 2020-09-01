@@ -2,12 +2,12 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/form/blueprints.yaml',
-    'modified' => 1589534673,
+    'modified' => 1591680910,
     'data' => [
         'name' => 'Form',
         'slug' => 'form',
         'type' => 'plugin',
-        'version' => '4.0.8',
+        'version' => '4.0.10',
         'testing' => false,
         'description' => 'Enables the forms handling',
         'icon' => 'check-square',

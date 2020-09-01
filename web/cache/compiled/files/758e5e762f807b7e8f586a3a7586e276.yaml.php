@@ -2,10 +2,12 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/tntsearch/blueprints.yaml',
-    'modified' => 1589040480,
+    'modified' => 1591680908,
     'data' => [
         'name' => 'TNT Search',
-        'version' => '3.1.1',
+        'slug' => 'tntsearch',
+        'type' => 'plugin',
+        'version' => '3.2.0',
         'testing' => false,
         'description' => 'Powerful indexed-based full text search engine powered by TNTSearch',
         'icon' => 'binoculars',

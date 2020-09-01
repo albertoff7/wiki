@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/login/languages/ro.yaml',
-    'modified' => 1589040437,
+    'modified' => 1591993148,
     'data' => [
         'PLUGIN_LOGIN' => [
             'USERNAME' => 'Nume utilizator',
@@ -14,7 +14,10 @@ return [
             'BTN_LOGOUT' => 'Ieșire din cont ',
             'BTN_FORGOT' => 'Am uitat',
             'BTN_REGISTER' => 'Înregistrare',
-            'BTN_RESET' => 'Resetează parola',
+            'BTN_RESET_PASSWORD' => 'Resetează parola',
+            'BTN_RESET' => 'Reset',
+            'BTN_SUBMIT' => 'Submit',
+            'BTN_SUBMIT_PROFILE' => 'Submit',
             'BTN_SEND_INSTRUCTIONS' => 'Trimite instrucțiuni pentru resetare',
             'RESET_LINK_EXPIRED' => 'Link-ul pentru resetarea parolei a expirat, vă rugăm încercați din nou ',
             'RESET_PASSWORD_RESET' => 'Parola a fost modificată',
@@ -89,7 +92,14 @@ return [
             'USE_PARENT_ACL_LABEL' => 'Folosește regulile de acces ale părintelui',
             'USE_PARENT_ACL_HELP' => 'Verifică regulie de acces ale părintelui dacă nu sunt specificate alte reguli de acces',
             'PROTECT_PROTECTED_PAGE_MEDIA_LABEL' => ' Protejează media ce aparține paginii de logare ',
-            'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Dacă este activată, media ce aparține unei pagini de logare este protejată și nu poate fi accesată decât după logare.'
+            'PROTECT_PROTECTED_PAGE_MEDIA_HELP' => 'Dacă este activată, media ce aparține unei pagini de logare este protejată și nu poate fi accesată decât după logare.',
+            'PROFILE_UPDATED' => 'Your profile has been updated',
+            'ENTER_EMAIL' => 'Enter your email',
+            'ENTER_NEW_PASSWORD' => 'Enter new password',
+            'ENTER_PASSWORD' => 'Enter a password',
+            'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+            'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+            'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.'
         ]
     ]
 ];

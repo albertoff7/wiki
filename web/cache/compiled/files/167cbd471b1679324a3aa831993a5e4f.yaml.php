@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/login/languages/no.yaml',
-    'modified' => 1589040437,
+    'modified' => 1591993148,
     'data' => [
         'PLUGIN_LOGIN' => [
             'USERNAME' => 'Brukernavn',
@@ -16,7 +16,10 @@ return [
             'BTN_LOGOUT' => 'Logg ut',
             'BTN_FORGOT' => 'Glemt passord',
             'BTN_REGISTER' => 'Registrer',
-            'BTN_RESET' => 'Tilbakestill Passord',
+            'BTN_RESET_PASSWORD' => 'Tilbakestill Passord',
+            'BTN_RESET' => 'Reset',
+            'BTN_SUBMIT' => 'Submit',
+            'BTN_SUBMIT_PROFILE' => 'Submit',
             'BTN_SEND_INSTRUCTIONS' => 'Send instruksjoner for tilbakestilling',
             'RESET_LINK_EXPIRED' => 'Tilbakestillingslenke har utløpt, vennligst prøv igjen',
             'RESET_PASSWORD_RESET' => 'Passord har blitt nullstilt',
@@ -65,7 +68,14 @@ return [
             'ROUTE_FORGOT' => 'Adresse for &rdquo;Glemt passord&rdquo;',
             'ROUTE_RESET' => 'Adresse for tilbakestilling av passord',
             'ROUTE_PROFILE' => 'Adresse til brukerprofil',
-            'PAGE_RESTRICTED' => 'Begrenset tilgang, vennligst logg inn...'
+            'PAGE_RESTRICTED' => 'Begrenset tilgang, vennligst logg inn...',
+            'PROFILE_UPDATED' => 'Your profile has been updated',
+            'ENTER_EMAIL' => 'Enter your email',
+            'ENTER_NEW_PASSWORD' => 'Enter new password',
+            'ENTER_PASSWORD' => 'Enter a password',
+            'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+            'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+            'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.'
         ]
     ]
 ];

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/login/languages/es.yaml',
-    'modified' => 1589040437,
+    'modified' => 1591993148,
     'data' => [
         'PLUGIN_LOGIN' => [
             'USERNAME' => 'Nombre de usuario',
@@ -16,7 +16,10 @@ return [
             'BTN_LOGOUT' => 'Salir',
             'BTN_FORGOT' => 'Olvidado',
             'BTN_REGISTER' => 'Registro',
-            'BTN_RESET' => 'Restaurar contraseña',
+            'BTN_RESET_PASSWORD' => 'Restaurar contraseña',
+            'BTN_RESET' => 'Reset',
+            'BTN_SUBMIT' => 'Submit',
+            'BTN_SUBMIT_PROFILE' => 'Submit',
             'BTN_SEND_INSTRUCTIONS' => 'Enviar instrucciones para restauración',
             'RESET_LINK_EXPIRED' => 'El enlace para la restauración ha caducado, inténtelo de nuevo.',
             'RESET_PASSWORD_RESET' => 'La contraseña ha sido restaurada',
@@ -118,7 +121,14 @@ return [
             'LOGGED_OUT' => 'Su sesión ha finalizado correctamente...',
             'PAGE_RESTRICTED' => 'Acceso restringido, acceda con sus credenciales...',
             'DYNAMIC_VISIBILITY' => 'Visibilidad de páginas dinámicas',
-            'DYNAMIC_VISIBILITY_HELP' => 'Permite el procesamiento de la visibilidad de páginas basada en reglas de acceso si login.visibility_requires_access es true en un página'
+            'DYNAMIC_VISIBILITY_HELP' => 'Permite el procesamiento de la visibilidad de páginas basada en reglas de acceso si login.visibility_requires_access es true en un página',
+            'PROFILE_UPDATED' => 'Your profile has been updated',
+            'ENTER_EMAIL' => 'Enter your email',
+            'ENTER_NEW_PASSWORD' => 'Enter new password',
+            'ENTER_PASSWORD' => 'Enter a password',
+            'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+            'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+            'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.'
         ]
     ]
 ];

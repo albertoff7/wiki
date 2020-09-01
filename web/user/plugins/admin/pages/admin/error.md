@@ -6,4 +6,4 @@ routable: false
 http_response_code: 404
 ---
 
-Woops! La pagina no existe... prueba de nuevo desde el Ãndice.
+Woops! Looks like this page doesn't exist.

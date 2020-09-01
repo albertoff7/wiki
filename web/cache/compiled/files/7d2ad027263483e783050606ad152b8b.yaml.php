@@ -2,12 +2,12 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/login/blueprints.yaml',
-    'modified' => 1589040437,
+    'modified' => 1591993148,
     'data' => [
         'name' => 'Login',
         'slug' => 'login',
         'type' => 'plugin',
-        'version' => '3.3.1',
+        'version' => '3.3.5',
         'testing' => false,
         'description' => 'Enables user authentication and login screen.',
         'icon' => 'sign-in',
@@ -77,7 +77,8 @@ return [
                                     'type' => 'toggle',
                                     'label' => 'PLUGIN_LOGIN.REDIRECT_TO_LOGIN',
                                     'help' => 'PLUGIN_LOGIN.REDIRECT_TO_LOGIN_HELP',
-                                    'default' => 1,
+                                    'default' => 0,
+                                    'highlight' => 0,
                                     'options' => [
                                         1 => 'PLUGIN_ADMIN.ENABLED',
                                         0 => 'PLUGIN_ADMIN.DISABLED'
@@ -92,6 +93,7 @@ return [
                                     'help' => 'PLUGIN_LOGIN.REDIRECT_AFTER_LOGIN_HELP',
                                     'force_bool' => true,
                                     'default' => 0,
+                                    'highlight' => 0,
                                     'options' => [
                                         1 => 'PLUGIN_ADMIN.ENABLED',
                                         0 => 'PLUGIN_ADMIN.DISABLED'
@@ -105,7 +107,8 @@ return [
                                     'label' => 'PLUGIN_LOGIN.REDIRECT_AFTER_LOGOUT',
                                     'help' => 'PLUGIN_LOGIN.REDIRECT_AFTER_LOGOUT_HELP',
                                     'force_bool' => true,
-                                    'default' => 0,
+                                    'default' => 1,
+                                    'highlight' => 1,
                                     'options' => [
                                         1 => 'PLUGIN_ADMIN.ENABLED',
                                         0 => 'PLUGIN_ADMIN.DISABLED'
@@ -117,7 +120,7 @@ return [
                                 'parent_acl' => [
                                     'type' => 'toggle',
                                     'label' => 'PLUGIN_LOGIN.USE_PARENT_ACL_LABEL',
-                                    'highlight' => 1,
+                                    'highlight' => 0,
                                     'default' => 0,
                                     'help' => 'PLUGIN_LOGIN.USE_PARENT_ACL_HELP',
                                     'options' => [
@@ -159,9 +162,23 @@ return [
                                 'protect_protected_page_media' => [
                                     'type' => 'toggle',
                                     'label' => 'PLUGIN_LOGIN.PROTECT_PROTECTED_PAGE_MEDIA_LABEL',
-                                    'highlight' => 1,
+                                    'highlight' => 0,
                                     'default' => 0,
                                     'help' => 'PLUGIN_LOGIN.PROTECT_PROTECTED_PAGE_MEDIA_HELP',
+                                    'options' => [
+                                        1 => 'PLUGIN_ADMIN.ENABLED',
+                                        0 => 'PLUGIN_ADMIN.DISABLED'
+                                    ],
+                                    'validate' => [
+                                        'type' => 'bool'
+                                    ]
+                                ],
+                                'session_user_sync' => [
+                                    'type' => 'toggle',
+                                    'label' => 'PLUGIN_LOGIN.SESSION_USER_SYNC',
+                                    'highlight' => 0,
+                                    'default' => 0,
+                                    'help' => 'PLUGIN_LOGIN.SESSION_USER_SYNC_HELP',
                                     'options' => [
                                         1 => 'PLUGIN_ADMIN.ENABLED',
                                         0 => 'PLUGIN_ADMIN.DISABLED'

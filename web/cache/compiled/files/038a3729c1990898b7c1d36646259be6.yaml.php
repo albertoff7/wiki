@@ -2,10 +2,12 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/themes/quark/blueprints.yaml',
-    'modified' => 1588290212,
+    'modified' => 1591680927,
     'data' => [
         'name' => 'Quark',
-        'version' => '2.0.2',
+        'slug' => 'quark',
+        'type' => 'theme',
+        'version' => '2.0.3',
         'description' => 'New Grav Default Theme',
         'icon' => 'microchip',
         'author' => [

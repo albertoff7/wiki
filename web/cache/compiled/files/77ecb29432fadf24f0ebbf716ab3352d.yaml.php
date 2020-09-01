@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/login/languages/en.yaml',
-    'modified' => 1589040437,
+    'modified' => 1591993148,
     'data' => [
         'PLUGIN_LOGIN' => [
             'USERNAME' => 'Username',
@@ -16,8 +16,11 @@ return [
             'BTN_LOGOUT' => 'Logout',
             'BTN_FORGOT' => 'Forgot',
             'BTN_REGISTER' => 'Register',
-            'BTN_RESET' => 'Reset Password',
+            'BTN_SUBMIT_PROFILE' => 'Submit',
+            'BTN_RESET' => 'Reset',
+            'BTN_RESET_PASSWORD' => 'Reset Password',
             'BTN_SEND_INSTRUCTIONS' => 'Send Reset Instructions',
+            'BTN_SUBMIT' => 'Submit',
             'RESET_LINK_EXPIRED' => 'Reset link has expired, please try again',
             'RESET_PASSWORD_RESET' => 'Password has been reset',
             'RESET_INVALID_LINK' => 'Invalid reset link used, please try again',
@@ -146,7 +149,16 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
             'MANUALLY_ENABLE' => 'Manually Enable',
             'MANUALLY_ENABLE_HELP' => 'When using \'activation email\' and \'notification email\', you can ensure the user can self activate, but requires manually enabling the user to login',
             'IPV6_SUBNET_SIZE' => 'IPv6 Subnet Size',
-            'IPV6_SUBNET_SIZE_HELP' => 'The number of IPv6 addresses typically assigned to a machine'
+            'IPV6_SUBNET_SIZE_HELP' => 'The number of IPv6 addresses typically assigned to a machine',
+            'PROFILE_UPDATED' => 'Your profile has been updated',
+            'ENTER_EMAIL' => 'Enter your email',
+            'ENTER_NEW_PASSWORD' => 'Enter new password',
+            'ENTER_PASSWORD' => 'Enter a password',
+            'ENTER_PASSWORD_AGAIN' => 'Enter the password again',
+            'REGISTRATION_THANK_YOU' => 'Thank you for registering.',
+            'USER_ACCOUNT_DISABLED' => 'Your user account is disabled or it has not yet been activated.',
+            'SESSION_USER_SYNC' => 'Sync User in Session',
+            'SESSION_USER_SYNC_HELP' => 'If Enabled, user in the session is kept in sync with the stored user file. WARNING: This feature may break some existing plugins which update user object in the session without saving it to the filesystem using `$user->save()` method.'
         ]
     ]
 ];

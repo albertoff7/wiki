@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/admin/languages/sl.yaml',
-    'modified' => 1589040441,
+    'modified' => 1591680905,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_REPORT_ISSUE' => 'Ste naleteli na težavo? Prijavite jo na GitHub-u.',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/plugins/admin/languages/en.yaml',
-    'modified' => 1589040441,
+    'modified' => 1591680905,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_NOSCRIPT_MSG' => 'Please enable JavaScript in your browser.',
@@ -833,7 +833,9 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
             'DEBUGGER_DEBUGBAR' => 'PHP Debug Bar',
             'DEBUGGER_CLOCKWORK' => 'Clockwork Browser Extension',
             'SHOW_SENSITIVE' => 'Show Sensitive Data',
-            'SHOW_SENSITIVE_HELP' => 'Clockwork Provider ONLY: Censor potentially sensitive information (POST parameters, cookies, files, configuration and most array/object data in log messages)'
+            'SHOW_SENSITIVE_HELP' => 'Clockwork Provider ONLY: Censor potentially sensitive information (POST parameters, cookies, files, configuration and most array/object data in log messages)',
+            'VALID_LINK_ATTRIBUTES' => 'Valid Link Attributes',
+            'VALID_LINK_ATTRIBUTES_HELP' => 'Attributes that will be automatically added to the media HTML element'
         ]
     ]
 ];

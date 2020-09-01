@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/user/config/plugins/anchors.yaml',
-    'modified' => 1589128627,
+    'modified' => 1595788772,
     'data' => [
         'enabled' => true,
         'active' => true,
